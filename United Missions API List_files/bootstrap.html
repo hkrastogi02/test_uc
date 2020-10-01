@@ -1,0 +1,3959 @@
+  <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Error: Missing Method in ServicesController    </title>
+    <link href="/united_missions/favicon.ico" type="image/x-icon" rel="icon"/><link href="/united_missions/favicon.ico" type="image/x-icon" rel="shortcut icon"/>    <style>
+    body {
+        font: 14px helvetica, arial, sans-serif;
+        color: #222;
+        background-color: #f8f8f8;
+        padding:0;
+        margin: 0;
+        max-height: 100%;
+    }
+
+    .code-dump,
+    pre {
+        background: #fefefe;
+        border: 1px solid #ddd;
+        padding: 5px;
+        white-space: pre-wrap;
+    }
+
+    header {
+        background-color: #C3232D;
+        color: #ffffff;
+        padding: 16px 10px;
+        border-bottom: 3px solid #626262;
+    }
+    .header-title {
+        margin: 0;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 64px;
+    }
+    .header-type {
+        opacity: 0.75;
+        display: block;
+        font-size: 16px;
+        line-height: 1;
+    }
+    .header-help {
+        font-size: 12px;
+        line-height: 1;
+        position: absolute;
+        top: 30px;
+        right: 16px;
+    }
+    .header-help a {
+        color: #fff;
+    }
+
+    .error-nav {
+        float: left;
+        width: 30%;
+    }
+    .error-contents {
+        padding: 10px 1%;
+        float: right;
+        width: 68%;
+    }
+
+    .error,
+    .error-subheading {
+        font-size: 18px;
+        margin-top: 0;
+        padding: 10px;
+        border: 1px solid #EDBD26;
+    }
+    .error-subheading {
+        background: #1798A5;
+        color: #fff;
+        border: 1px solid #02808C;
+    }
+    .error {
+        background: #ffd54f;
+    }
+    .customize {
+        opacity: 0.6;
+    }
+
+    .stack-trace {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .stack-frame {
+        padding: 10px;
+        border-bottom: 1px solid #212121;
+    }
+    .stack-frame:last-child {
+        border-bottom: none;
+    }
+    .stack-frame a {
+        display: block;
+        color: #212121;
+        text-decoration: none;
+    }
+    .stack-frame.active {
+        background: #e5e5e5;
+    }
+    .stack-frame a:hover {
+        text-decoration: underline;
+    }
+    .stack-file,
+    .stack-function {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .stack-frame-file,
+    .stack-file {
+        font-family: consolas, monospace;
+    }
+    .stack-function {
+        font-weight: bold;
+    }
+    .stack-file {
+        font-size: 0.9em;
+        word-wrap: break-word;
+    }
+
+    .stack-details {
+        background: #ececec;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        border: 1px solid #ababab;
+        padding: 10px;
+        margin-bottom: 18px;
+    }
+    .stack-frame-args {
+        float: right;
+    }
+
+    .toggle-link {
+        color: #1798A5;
+        text-decoration: none;
+    }
+    .toggle-link:hover {
+        text-decoration: underline;
+    }
+    .toggle-vendor-frames {
+        padding: 5px;
+        display: block;
+        text-align: center;
+    }
+
+    .code-excerpt {
+        width: 100%;
+        margin: 5px 0;
+        background: #fefefe;
+    }
+    .code-highlight {
+        display: block;
+        background: #fff59d;
+    }
+    .excerpt-line {
+        padding-left: 2px;
+    }
+    .excerpt-number {
+        background: #f6f6f6;
+        width: 50px;
+        text-align: right;
+        color: #666;
+        border-right: 1px solid #ddd;
+        padding: 2px;
+    }
+    .excerpt-number:after {
+        content: attr(data-number);
+    }
+
+    table {
+        text-align: left;
+    }
+    th, td {
+        padding: 4px;
+    }
+    th {
+        border-bottom: 1px solid #ccc;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">
+            Missing Method in ServicesController            <span class="header-type">Cake\Controller\Exception\MissingActionException</span>
+        </h1>
+        <div class="header-help">
+            <a target="_blank" href="https://book.cakephp.org/3.0/">Documentation</a>
+            <a target="_blank" href="https://api.cakephp.org/">API</a>
+        </div>
+    </header>
+
+    <div class="error-contents">
+                <p class="error-subheading">
+            The action <em>js</em> is not defined in <em>ServicesController</em>        </p>
+        
+        
+    <div id="stack-frame-0" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-0">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="116"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">instanceof&nbsp;</span><span style="color: #0000BB">Response</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="117"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$result</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="118"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="119"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="120"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$response&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$controller</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">invokeAction</span><span style="color: #007700">();</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="121"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$response&nbsp;</span><span style="color: #007700">!==&nbsp;</span><span style="color: #0000BB">null&nbsp;</span><span style="color: #007700">&amp;&amp;&nbsp;!(</span><span style="color: #0000BB">$response&nbsp;</span><span style="color: #007700">instanceof&nbsp;</span><span style="color: #0000BB">Response</span><span style="color: #007700">))&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="122"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">throw&nbsp;new&nbsp;</span><span style="color: #0000BB">LogicException</span><span style="color: #007700">(</span><span style="color: #DD0000">'Controller&nbsp;actions&nbsp;can&nbsp;only&nbsp;return&nbsp;Cake\Http\Response&nbsp;or&nbsp;null.'</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="123"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="124"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-0" style="display: none;">
+            <pre>No arguments</pre>
+        </div>
+    </div>
+    <div id="stack-frame-1" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-1">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="90"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}&nbsp;else&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="91"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$controller&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">factory</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">create</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="92"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="93"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="94"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$response&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_invoke</span><span style="color: #007700">(</span><span style="color: #0000BB">$controller</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="95"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getParam</span><span style="color: #007700">(</span><span style="color: #DD0000">'return'</span><span style="color: #007700">))&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="96"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="97"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="98"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-1" style="display: none;">
+            <pre>object(App\Controller\ServicesController) {
+	logoUrl =&gt; &#039;http://192.168.1.63/united_missions/img/front/web-logo.png&#039;
+	Common =&gt; object(App\Controller\Component\CommonComponent) {
+
+		&#039;components&#039; =&gt; [[maximum depth reached]],
+		&#039;implementedEvents&#039; =&gt; [[maximum depth reached]],
+		&#039;_config&#039; =&gt; [[maximum depth reached]]
+	
+	}
+	title_for_layout =&gt; &#039;&#039;
+	meta_description =&gt; &#039;&#039;
+	meta_keywords =&gt; &#039;&#039;
+	projectName =&gt; &#039;United Missions&#039;
+	baseUrl =&gt; &#039;http://192.168.1.63/united_missions/&#039;
+	timeZone =&gt; &#039;America/New_York&#039;
+	timeFormat =&gt; &#039;MM-dd-yyyy hh:mm a&#039;
+	monthYearFormat =&gt; &#039;MMM, yyyy&#039;
+	UserTable =&gt; object(App\Model\Table\UsersTable) {
+
+		&#039;registryAlias&#039; =&gt; &#039;Users&#039;,
+		&#039;table&#039; =&gt; &#039;users&#039;,
+		&#039;alias&#039; =&gt; &#039;Users&#039;,
+		&#039;entityClass&#039; =&gt; &#039;App\Model\Entity\User&#039;,
+		&#039;associations&#039; =&gt; [
+			[maximum depth reached]
+		],
+		&#039;behaviors&#039; =&gt; [
+			[maximum depth reached]
+		],
+		&#039;defaultConnection&#039; =&gt; &#039;default&#039;,
+		&#039;connectionName&#039; =&gt; &#039;default&#039;
+	
+	}
+	userDetails =&gt; null
+	csrfToken =&gt; null
+	isMyProfile =&gt; true
+	_controller =&gt; &#039;Services&#039;
+	_action =&gt; &#039;js&#039;
+	allowedFrontAction =&gt; [
+		(int) 0 =&gt; &#039;home&#039;,
+		(int) 1 =&gt; &#039;view&#039;,
+		(int) 2 =&gt; &#039;login&#039;,
+		(int) 3 =&gt; &#039;signupAs&#039;,
+		(int) 4 =&gt; &#039;signup&#039;,
+		(int) 5 =&gt; &#039;forgotPassword&#039;,
+		(int) 6 =&gt; &#039;resetPassword&#039;,
+		(int) 7 =&gt; &#039;verifyEmail&#039;,
+		(int) 8 =&gt; &#039;logout&#039;,
+		(int) 9 =&gt; &#039;contactUsForm&#039;
+	]
+	helpers =&gt; []
+	request =&gt; object(Cake\Http\ServerRequest) {
+		trustProxy =&gt; false
+		[protected] params =&gt; [
+			[maximum depth reached]
+		]
+		[protected] data =&gt; [[maximum depth reached]]
+		[protected] query =&gt; [[maximum depth reached]]
+		[protected] cookies =&gt; [[maximum depth reached]]
+		[protected] _environment =&gt; [
+			[maximum depth reached]
+		]
+		[protected] url =&gt; &#039;services/js/bootstrap.min.js&#039;
+		[protected] base =&gt; &#039;/united_missions&#039;
+		[protected] webroot =&gt; &#039;/united_missions/&#039;
+		[protected] here =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;
+		[protected] _input =&gt; null
+		[protected] _detectors =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _detectorCache =&gt; [
+			[maximum depth reached]
+		]
+		[protected] stream =&gt; object(Zend\Diactoros\PhpInputStream) {}
+		[protected] uri =&gt; object(Zend\Diactoros\Uri) {}
+		[protected] session =&gt; object(Cake\Http\Session) {}
+		[protected] attributes =&gt; [[maximum depth reached]]
+		[protected] emulatedAttributes =&gt; [
+			[maximum depth reached]
+		]
+		[protected] uploadedFiles =&gt; [[maximum depth reached]]
+		[protected] protocol =&gt; null
+		[protected] requestTarget =&gt; null
+		[private] deprecatedProperties =&gt; [
+			[maximum depth reached]
+		]
+	}
+	response =&gt; object(Cake\Http\Response) {
+
+		&#039;status&#039; =&gt; (int) 200,
+		&#039;contentType&#039; =&gt; &#039;text/html&#039;,
+		&#039;headers&#039; =&gt; [
+			[maximum depth reached]
+		],
+		&#039;file&#039; =&gt; null,
+		&#039;fileRange&#039; =&gt; [[maximum depth reached]],
+		&#039;cookies&#039; =&gt; object(Cake\Http\Cookie\CookieCollection) {},
+		&#039;cacheDirectives&#039; =&gt; [[maximum depth reached]],
+		&#039;body&#039; =&gt; &#039;&#039;
+	
+	}
+	paginate =&gt; []
+	components =&gt; []
+	View =&gt; null
+	passedArgs =&gt; [
+		(int) 0 =&gt; &#039;bootstrap.min.js&#039;
+	]
+	modelClass =&gt; &#039;Services&#039;
+	viewClass =&gt; null
+	viewVars =&gt; [
+		&#039;userDetails&#039; =&gt; null
+	]
+	RequestHandler =&gt; object(Cake\Controller\Component\RequestHandlerComponent) {
+
+		&#039;components&#039; =&gt; [[maximum depth reached]],
+		&#039;implementedEvents&#039; =&gt; [
+			[maximum depth reached]
+		],
+		&#039;_config&#039; =&gt; [
+			[maximum depth reached]
+		]
+	
+	}
+	Flash =&gt; object(Cake\Controller\Component\FlashComponent) {
+
+		&#039;components&#039; =&gt; [[maximum depth reached]],
+		&#039;implementedEvents&#039; =&gt; [[maximum depth reached]],
+		&#039;_config&#039; =&gt; [
+			[maximum depth reached]
+		]
+	
+	}
+	Auth =&gt; object(Cake\Controller\Component\AuthComponent) {
+
+		&#039;components&#039; =&gt; [
+			[maximum depth reached]
+		],
+		&#039;implementedEvents&#039; =&gt; [
+			[maximum depth reached]
+		],
+		&#039;_config&#039; =&gt; [
+			[maximum depth reached]
+		]
+	
+	}
+	Imageresize =&gt; object(App\Controller\Component\ImageresizeComponent) {
+
+		&#039;components&#039; =&gt; [[maximum depth reached]],
+		&#039;implementedEvents&#039; =&gt; [[maximum depth reached]],
+		&#039;_config&#039; =&gt; [[maximum depth reached]]
+	
+	}
+	[protected] name =&gt; &#039;Services&#039;
+	[protected] _responseClass =&gt; &#039;Cake\Http\Response&#039;
+	[protected] autoRender =&gt; false
+	[protected] _components =&gt; object(Cake\Controller\ComponentRegistry) {
+
+		&#039;_Controller&#039; =&gt; object(App\Controller\ServicesController) {},
+		&#039;_loaded&#039; =&gt; [
+			[maximum depth reached]
+		],
+		&#039;_eventManager&#039; =&gt; object(Cake\Event\EventManager) {},
+		&#039;_eventClass&#039; =&gt; &#039;Cake\Event\Event&#039;
+	
+	}
+	[protected] _validViewOptions =&gt; [
+		(int) 0 =&gt; &#039;passedArgs&#039;
+	]
+	[protected] plugin =&gt; null
+	[protected] _eventManager =&gt; object(Cake\Event\EventManager) {
+
+		&#039;_listeners&#039; =&gt; [
+			[maximum depth reached]
+		],
+		&#039;_isGlobal&#039; =&gt; false,
+		&#039;_trackEvents&#039; =&gt; false,
+		&#039;_generalManager&#039; =&gt; &#039;(object) EventManager&#039;,
+		&#039;_dispatchedEvents&#039; =&gt; null
+	
+	}
+	[protected] _eventClass =&gt; &#039;Cake\Event\Event&#039;
+	[protected] _tableLocator =&gt; object(Cake\ORM\Locator\TableLocator) {
+		[protected] _config =&gt; [[maximum depth reached]]
+		[protected] _instances =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _fallbacked =&gt; [[maximum depth reached]]
+		[protected] _options =&gt; [
+			[maximum depth reached]
+		]
+	}
+	[protected] _modelFactories =&gt; [
+		&#039;Table&#039; =&gt; [
+			(int) 0 =&gt; object(Cake\ORM\Locator\TableLocator) {},
+			(int) 1 =&gt; &#039;get&#039;
+		]
+	]
+	[protected] _modelType =&gt; &#039;Table&#039;
+	[protected] _viewBuilder =&gt; object(Cake\View\ViewBuilder) {
+		[protected] _templatePath =&gt; null
+		[protected] _template =&gt; null
+		[protected] _plugin =&gt; null
+		[protected] _theme =&gt; null
+		[protected] _layout =&gt; &#039;&#039;
+		[protected] _autoLayout =&gt; null
+		[protected] _layoutPath =&gt; null
+		[protected] _name =&gt; null
+		[protected] _className =&gt; null
+		[protected] _options =&gt; [[maximum depth reached]]
+		[protected] _helpers =&gt; [[maximum depth reached]]
+	}
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-2" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/cakephp/src/Http/BaseApplication.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-2">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="231"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*&nbsp;@return&nbsp;\</span><span style="color: #0000BB">Psr</span><span style="color: #007700">\</span><span style="color: #0000BB">Http</span><span style="color: #007700">\</span><span style="color: #0000BB">Message</span><span style="color: #007700">\</span><span style="color: #0000BB">ResponseInterface</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="232"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*/</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="233"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">__invoke</span><span style="color: #007700">(</span><span style="color: #0000BB">ServerRequestInterface&nbsp;$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">ResponseInterface&nbsp;$response</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$next</span><span style="color: #007700">)</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="234"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="235"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDispatcher</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">dispatch</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="236"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="237"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="238"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/**</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="239"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">Get&nbsp;the&nbsp;ActionDispatcher</span><span style="color: #007700">.</span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-2" style="display: none;">
+            <pre>object(Cake\Http\ServerRequest) {
+	trustProxy =&gt; false
+	[protected] params =&gt; [
+		&#039;controller&#039; =&gt; &#039;Services&#039;,
+		&#039;action&#039; =&gt; &#039;js&#039;,
+		&#039;pass&#039; =&gt; [
+			(int) 0 =&gt; &#039;bootstrap.min.js&#039;
+		],
+		&#039;plugin&#039; =&gt; null,
+		&#039;_matchedRoute&#039; =&gt; &#039;/:controller/:action/*&#039;,
+		&#039;_ext&#039; =&gt; null
+	]
+	[protected] data =&gt; []
+	[protected] query =&gt; []
+	[protected] cookies =&gt; []
+	[protected] _environment =&gt; [
+		&#039;SERVER_SIGNATURE&#039; =&gt; &#039;&lt;address&gt;Apache Server at 192.168.1.63 Port 80&lt;/address&gt;
+&#039;,
+		&#039;HTTP_USER_AGENT&#039; =&gt; &#039;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0&#039;,
+		&#039;REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;SERVER_PORT&#039; =&gt; &#039;80&#039;,
+		&#039;HTTP_HOST&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;REDIRECT_HANDLER&#039; =&gt; &#039;php56-fcgi&#039;,
+		&#039;DOCUMENT_ROOT&#039; =&gt; &#039;/var/www/html/projects/&#039;,
+		&#039;SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_URI&#039; =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;,
+		&#039;SCRIPT_NAME&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REDIRECT_REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_CONNECTION&#039; =&gt; &#039;keep-alive&#039;,
+		&#039;REMOTE_PORT&#039; =&gt; &#039;52100&#039;,
+		&#039;PATH&#039; =&gt; &#039;/sbin:/usr/sbin:/bin:/usr/bin&#039;,
+		&#039;PWD&#039; =&gt; &#039;/var/www/cgi-bin&#039;,
+		&#039;SERVER_ADMIN&#039; =&gt; &#039;root@localhost&#039;,
+		&#039;REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_ACCEPT_LANGUAGE&#039; =&gt; &#039;en-US,en;q=0.5&#039;,
+		&#039;HTTP_REFERER&#039; =&gt; &#039;http://192.168.1.63/united_missions/services/api&#039;,
+		&#039;HTTP_ACCEPT&#039; =&gt; &#039;*/*&#039;,
+		&#039;REMOTE_ADDR&#039; =&gt; &#039;192.168.20.10&#039;,
+		&#039;SHLVL&#039; =&gt; &#039;0&#039;,
+		&#039;SERVER_NAME&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;SERVER_SOFTWARE&#039; =&gt; &#039;Apache&#039;,
+		&#039;QUERY_STRING&#039; =&gt; &#039;&#039;,
+		&#039;SERVER_ADDR&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;GATEWAY_INTERFACE&#039; =&gt; &#039;CGI/1.1&#039;,
+		&#039;SERVER_PROTOCOL&#039; =&gt; &#039;HTTP/1.1&#039;,
+		&#039;HTTP_ACCEPT_ENCODING&#039; =&gt; &#039;gzip, deflate&#039;,
+		&#039;REDIRECT_URL&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;ORIG_SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/cgi-bin/php56.fcgi&#039;,
+		&#039;ORIG_PATH_INFO&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_PATH_TRANSLATED&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_SCRIPT_NAME&#039; =&gt; &#039;/cgi-bin/php56.fcgi&#039;,
+		&#039;PHP_SELF&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_TIME_FLOAT&#039; =&gt; (float) 1557820218.9829,
+		&#039;REQUEST_TIME&#039; =&gt; (int) 1557820218,
+		&#039;ORIGINAL_REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;HTTP_X_REQUESTED_WITH&#039; =&gt; null
+	]
+	[protected] url =&gt; &#039;services/js/bootstrap.min.js&#039;
+	[protected] base =&gt; &#039;/united_missions&#039;
+	[protected] webroot =&gt; &#039;/united_missions/&#039;
+	[protected] here =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;
+	[protected] _input =&gt; null
+	[protected] _detectors =&gt; [
+		&#039;get&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;GET&#039;
+		],
+		&#039;post&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;POST&#039;
+		],
+		&#039;put&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PUT&#039;
+		],
+		&#039;patch&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PATCH&#039;
+		],
+		&#039;delete&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;DELETE&#039;
+		],
+		&#039;head&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;HEAD&#039;
+		],
+		&#039;options&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;OPTIONS&#039;
+		],
+		&#039;ssl&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTPS&#039;,
+			&#039;options&#039; =&gt; [
+				[maximum depth reached]
+			]
+		],
+		&#039;ajax&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_X_REQUESTED_WITH&#039;,
+			&#039;value&#039; =&gt; &#039;XMLHttpRequest&#039;
+		],
+		&#039;flash&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_USER_AGENT&#039;,
+			&#039;pattern&#039; =&gt; &#039;/^(Shockwave|Adobe) Flash/&#039;
+		],
+		&#039;requested&#039; =&gt; [
+			&#039;param&#039; =&gt; &#039;requested&#039;,
+			&#039;value&#039; =&gt; (int) 1
+		],
+		&#039;json&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;json&#039;
+		],
+		&#039;xml&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;xml&#039;
+		],
+		&#039;mobile&#039; =&gt; object(Closure) {},
+		&#039;tablet&#039; =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; [
+		&#039;ajax&#039; =&gt; false,
+		&#039;get&#039; =&gt; true,
+		&#039;head&#039; =&gt; false,
+		&#039;options&#039; =&gt; false
+	]
+	[protected] stream =&gt; object(Zend\Diactoros\PhpInputStream) {
+		[protected] resource =&gt; resource
+		[protected] stream =&gt; &#039;php://input&#039;
+		[private] cache =&gt; &#039;&#039;
+		[private] reachedEof =&gt; false
+	}
+	[protected] uri =&gt; object(Zend\Diactoros\Uri) {
+		base =&gt; &#039;/united_missions&#039;
+		webroot =&gt; &#039;/united_missions/&#039;
+		[protected] allowedSchemes =&gt; [
+			[maximum depth reached]
+		]
+		[private] scheme =&gt; &#039;http&#039;
+		[private] userInfo =&gt; &#039;&#039;
+		[private] host =&gt; &#039;192.168.1.63&#039;
+		[private] port =&gt; null
+		[private] path =&gt; &#039;/services/js/bootstrap.min.js&#039;
+		[private] query =&gt; &#039;&#039;
+		[private] fragment =&gt; &#039;&#039;
+		[private] uriString =&gt; null
+	}
+	[protected] session =&gt; object(Cake\Http\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; (int) 1440
+		[protected] _isCLI =&gt; false
+	}
+	[protected] attributes =&gt; []
+	[protected] emulatedAttributes =&gt; [
+		(int) 0 =&gt; &#039;session&#039;,
+		(int) 1 =&gt; &#039;webroot&#039;,
+		(int) 2 =&gt; &#039;base&#039;,
+		(int) 3 =&gt; &#039;params&#039;,
+		(int) 4 =&gt; &#039;here&#039;
+	]
+	[protected] uploadedFiles =&gt; []
+	[protected] protocol =&gt; null
+	[protected] requestTarget =&gt; null
+	[private] deprecatedProperties =&gt; [
+		&#039;data&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getData()&#039;,
+			&#039;set&#039; =&gt; &#039;withData()&#039;
+		],
+		&#039;query&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getQuery()&#039;,
+			&#039;set&#039; =&gt; &#039;withQueryParams()&#039;
+		],
+		&#039;params&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getParam()&#039;,
+			&#039;set&#039; =&gt; &#039;withParam()&#039;
+		],
+		&#039;cookies&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getCookie()&#039;,
+			&#039;set&#039; =&gt; &#039;withCookieParams()&#039;
+		],
+		&#039;url&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getPath()&#039;,
+			&#039;set&#039; =&gt; &#039;withRequestTarget()&#039;
+		],
+		&#039;base&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;base&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;base&quot;)&#039;
+		],
+		&#039;webroot&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;webroot&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;webroot&quot;)&#039;
+		],
+		&#039;here&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;here&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;here&quot;)&#039;
+		]
+	]
+}
+object(Cake\Http\Response) {
+
+	&#039;status&#039; =&gt; (int) 200,
+	&#039;contentType&#039; =&gt; &#039;text/html&#039;,
+	&#039;headers&#039; =&gt; [
+		&#039;Content-Type&#039; =&gt; [
+			(int) 0 =&gt; &#039;text/html; charset=UTF-8&#039;
+		]
+	],
+	&#039;file&#039; =&gt; null,
+	&#039;fileRange&#039; =&gt; [],
+	&#039;cookies&#039; =&gt; object(Cake\Http\Cookie\CookieCollection) {
+		[protected] cookies =&gt; [[maximum depth reached]]
+	},
+	&#039;cacheDirectives&#039; =&gt; [],
+	&#039;body&#039; =&gt; &#039;&#039;
+
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-3" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/cakephp/src/Http/Runner.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-3">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="61"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$next&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">middleware</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">get</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">index</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="62"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$next</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="63"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">index</span><span style="color: #007700">++;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="64"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="65"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$next</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="66"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="67"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="68"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;End&nbsp;of&nbsp;the&nbsp;queue</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="69"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-3" style="display: none;">
+            <pre>object(Cake\Http\ServerRequest) {
+	trustProxy =&gt; false
+	[protected] params =&gt; [
+		&#039;controller&#039; =&gt; &#039;Services&#039;,
+		&#039;action&#039; =&gt; &#039;js&#039;,
+		&#039;pass&#039; =&gt; [
+			(int) 0 =&gt; &#039;bootstrap.min.js&#039;
+		],
+		&#039;plugin&#039; =&gt; null,
+		&#039;_matchedRoute&#039; =&gt; &#039;/:controller/:action/*&#039;,
+		&#039;_ext&#039; =&gt; null
+	]
+	[protected] data =&gt; []
+	[protected] query =&gt; []
+	[protected] cookies =&gt; []
+	[protected] _environment =&gt; [
+		&#039;SERVER_SIGNATURE&#039; =&gt; &#039;&lt;address&gt;Apache Server at 192.168.1.63 Port 80&lt;/address&gt;
+&#039;,
+		&#039;HTTP_USER_AGENT&#039; =&gt; &#039;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0&#039;,
+		&#039;REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;SERVER_PORT&#039; =&gt; &#039;80&#039;,
+		&#039;HTTP_HOST&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;REDIRECT_HANDLER&#039; =&gt; &#039;php56-fcgi&#039;,
+		&#039;DOCUMENT_ROOT&#039; =&gt; &#039;/var/www/html/projects/&#039;,
+		&#039;SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_URI&#039; =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;,
+		&#039;SCRIPT_NAME&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REDIRECT_REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_CONNECTION&#039; =&gt; &#039;keep-alive&#039;,
+		&#039;REMOTE_PORT&#039; =&gt; &#039;52100&#039;,
+		&#039;PATH&#039; =&gt; &#039;/sbin:/usr/sbin:/bin:/usr/bin&#039;,
+		&#039;PWD&#039; =&gt; &#039;/var/www/cgi-bin&#039;,
+		&#039;SERVER_ADMIN&#039; =&gt; &#039;root@localhost&#039;,
+		&#039;REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_ACCEPT_LANGUAGE&#039; =&gt; &#039;en-US,en;q=0.5&#039;,
+		&#039;HTTP_REFERER&#039; =&gt; &#039;http://192.168.1.63/united_missions/services/api&#039;,
+		&#039;HTTP_ACCEPT&#039; =&gt; &#039;*/*&#039;,
+		&#039;REMOTE_ADDR&#039; =&gt; &#039;192.168.20.10&#039;,
+		&#039;SHLVL&#039; =&gt; &#039;0&#039;,
+		&#039;SERVER_NAME&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;SERVER_SOFTWARE&#039; =&gt; &#039;Apache&#039;,
+		&#039;QUERY_STRING&#039; =&gt; &#039;&#039;,
+		&#039;SERVER_ADDR&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;GATEWAY_INTERFACE&#039; =&gt; &#039;CGI/1.1&#039;,
+		&#039;SERVER_PROTOCOL&#039; =&gt; &#039;HTTP/1.1&#039;,
+		&#039;HTTP_ACCEPT_ENCODING&#039; =&gt; &#039;gzip, deflate&#039;,
+		&#039;REDIRECT_URL&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;ORIG_SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/cgi-bin/php56.fcgi&#039;,
+		&#039;ORIG_PATH_INFO&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_PATH_TRANSLATED&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_SCRIPT_NAME&#039; =&gt; &#039;/cgi-bin/php56.fcgi&#039;,
+		&#039;PHP_SELF&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_TIME_FLOAT&#039; =&gt; (float) 1557820218.9829,
+		&#039;REQUEST_TIME&#039; =&gt; (int) 1557820218,
+		&#039;ORIGINAL_REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;HTTP_X_REQUESTED_WITH&#039; =&gt; null
+	]
+	[protected] url =&gt; &#039;services/js/bootstrap.min.js&#039;
+	[protected] base =&gt; &#039;/united_missions&#039;
+	[protected] webroot =&gt; &#039;/united_missions/&#039;
+	[protected] here =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;
+	[protected] _input =&gt; null
+	[protected] _detectors =&gt; [
+		&#039;get&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;GET&#039;
+		],
+		&#039;post&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;POST&#039;
+		],
+		&#039;put&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PUT&#039;
+		],
+		&#039;patch&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PATCH&#039;
+		],
+		&#039;delete&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;DELETE&#039;
+		],
+		&#039;head&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;HEAD&#039;
+		],
+		&#039;options&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;OPTIONS&#039;
+		],
+		&#039;ssl&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTPS&#039;,
+			&#039;options&#039; =&gt; [
+				[maximum depth reached]
+			]
+		],
+		&#039;ajax&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_X_REQUESTED_WITH&#039;,
+			&#039;value&#039; =&gt; &#039;XMLHttpRequest&#039;
+		],
+		&#039;flash&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_USER_AGENT&#039;,
+			&#039;pattern&#039; =&gt; &#039;/^(Shockwave|Adobe) Flash/&#039;
+		],
+		&#039;requested&#039; =&gt; [
+			&#039;param&#039; =&gt; &#039;requested&#039;,
+			&#039;value&#039; =&gt; (int) 1
+		],
+		&#039;json&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;json&#039;
+		],
+		&#039;xml&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;xml&#039;
+		],
+		&#039;mobile&#039; =&gt; object(Closure) {},
+		&#039;tablet&#039; =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; [
+		&#039;ajax&#039; =&gt; false,
+		&#039;get&#039; =&gt; true,
+		&#039;head&#039; =&gt; false,
+		&#039;options&#039; =&gt; false
+	]
+	[protected] stream =&gt; object(Zend\Diactoros\PhpInputStream) {
+		[protected] resource =&gt; resource
+		[protected] stream =&gt; &#039;php://input&#039;
+		[private] cache =&gt; &#039;&#039;
+		[private] reachedEof =&gt; false
+	}
+	[protected] uri =&gt; object(Zend\Diactoros\Uri) {
+		base =&gt; &#039;/united_missions&#039;
+		webroot =&gt; &#039;/united_missions/&#039;
+		[protected] allowedSchemes =&gt; [
+			[maximum depth reached]
+		]
+		[private] scheme =&gt; &#039;http&#039;
+		[private] userInfo =&gt; &#039;&#039;
+		[private] host =&gt; &#039;192.168.1.63&#039;
+		[private] port =&gt; null
+		[private] path =&gt; &#039;/services/js/bootstrap.min.js&#039;
+		[private] query =&gt; &#039;&#039;
+		[private] fragment =&gt; &#039;&#039;
+		[private] uriString =&gt; null
+	}
+	[protected] session =&gt; object(Cake\Http\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; (int) 1440
+		[protected] _isCLI =&gt; false
+	}
+	[protected] attributes =&gt; []
+	[protected] emulatedAttributes =&gt; [
+		(int) 0 =&gt; &#039;session&#039;,
+		(int) 1 =&gt; &#039;webroot&#039;,
+		(int) 2 =&gt; &#039;base&#039;,
+		(int) 3 =&gt; &#039;params&#039;,
+		(int) 4 =&gt; &#039;here&#039;
+	]
+	[protected] uploadedFiles =&gt; []
+	[protected] protocol =&gt; null
+	[protected] requestTarget =&gt; null
+	[private] deprecatedProperties =&gt; [
+		&#039;data&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getData()&#039;,
+			&#039;set&#039; =&gt; &#039;withData()&#039;
+		],
+		&#039;query&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getQuery()&#039;,
+			&#039;set&#039; =&gt; &#039;withQueryParams()&#039;
+		],
+		&#039;params&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getParam()&#039;,
+			&#039;set&#039; =&gt; &#039;withParam()&#039;
+		],
+		&#039;cookies&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getCookie()&#039;,
+			&#039;set&#039; =&gt; &#039;withCookieParams()&#039;
+		],
+		&#039;url&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getPath()&#039;,
+			&#039;set&#039; =&gt; &#039;withRequestTarget()&#039;
+		],
+		&#039;base&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;base&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;base&quot;)&#039;
+		],
+		&#039;webroot&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;webroot&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;webroot&quot;)&#039;
+		],
+		&#039;here&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;here&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;here&quot;)&#039;
+		]
+	]
+}
+object(Cake\Http\Response) {
+
+	&#039;status&#039; =&gt; (int) 200,
+	&#039;contentType&#039; =&gt; &#039;text/html&#039;,
+	&#039;headers&#039; =&gt; [
+		&#039;Content-Type&#039; =&gt; [
+			(int) 0 =&gt; &#039;text/html; charset=UTF-8&#039;
+		]
+	],
+	&#039;file&#039; =&gt; null,
+	&#039;fileRange&#039; =&gt; [],
+	&#039;cookies&#039; =&gt; object(Cake\Http\Cookie\CookieCollection) {
+		[protected] cookies =&gt; [[maximum depth reached]]
+	},
+	&#039;cacheDirectives&#039; =&gt; [],
+	&#039;body&#039; =&gt; &#039;&#039;
+
+}
+object(Cake\Http\Runner) {
+	[protected] index =&gt; (int) 5
+	[protected] middleware =&gt; object(Cake\Http\MiddlewareQueue) {
+		[protected] queue =&gt; [
+			[maximum depth reached]
+		]
+		[protected] callables =&gt; [
+			[maximum depth reached]
+		]
+	}
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-4" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-4">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="152"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="153"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="154"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$matching&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">Router</span><span style="color: #007700">::</span><span style="color: #0000BB">getRouteCollection</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">getMiddleware</span><span style="color: #007700">(</span><span style="color: #0000BB">$middleware</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="155"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(!</span><span style="color: #0000BB">$matching</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="156"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$next</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="157"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="158"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$matching</span><span style="color: #007700">[]&nbsp;=&nbsp;</span><span style="color: #0000BB">$next</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="159"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$middleware&nbsp;</span><span style="color: #007700">=&nbsp;new&nbsp;</span><span style="color: #0000BB">MiddlewareQueue</span><span style="color: #007700">(</span><span style="color: #0000BB">$matching</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="160"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$runner&nbsp;</span><span style="color: #007700">=&nbsp;new&nbsp;</span><span style="color: #0000BB">Runner</span><span style="color: #007700">();</span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-4" style="display: none;">
+            <pre>object(Cake\Http\ServerRequest) {
+	trustProxy =&gt; false
+	[protected] params =&gt; [
+		&#039;controller&#039; =&gt; &#039;Services&#039;,
+		&#039;action&#039; =&gt; &#039;js&#039;,
+		&#039;pass&#039; =&gt; [
+			(int) 0 =&gt; &#039;bootstrap.min.js&#039;
+		],
+		&#039;plugin&#039; =&gt; null,
+		&#039;_matchedRoute&#039; =&gt; &#039;/:controller/:action/*&#039;,
+		&#039;_ext&#039; =&gt; null
+	]
+	[protected] data =&gt; []
+	[protected] query =&gt; []
+	[protected] cookies =&gt; []
+	[protected] _environment =&gt; [
+		&#039;SERVER_SIGNATURE&#039; =&gt; &#039;&lt;address&gt;Apache Server at 192.168.1.63 Port 80&lt;/address&gt;
+&#039;,
+		&#039;HTTP_USER_AGENT&#039; =&gt; &#039;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0&#039;,
+		&#039;REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;SERVER_PORT&#039; =&gt; &#039;80&#039;,
+		&#039;HTTP_HOST&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;REDIRECT_HANDLER&#039; =&gt; &#039;php56-fcgi&#039;,
+		&#039;DOCUMENT_ROOT&#039; =&gt; &#039;/var/www/html/projects/&#039;,
+		&#039;SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_URI&#039; =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;,
+		&#039;SCRIPT_NAME&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REDIRECT_REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_CONNECTION&#039; =&gt; &#039;keep-alive&#039;,
+		&#039;REMOTE_PORT&#039; =&gt; &#039;52100&#039;,
+		&#039;PATH&#039; =&gt; &#039;/sbin:/usr/sbin:/bin:/usr/bin&#039;,
+		&#039;PWD&#039; =&gt; &#039;/var/www/cgi-bin&#039;,
+		&#039;SERVER_ADMIN&#039; =&gt; &#039;root@localhost&#039;,
+		&#039;REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_ACCEPT_LANGUAGE&#039; =&gt; &#039;en-US,en;q=0.5&#039;,
+		&#039;HTTP_REFERER&#039; =&gt; &#039;http://192.168.1.63/united_missions/services/api&#039;,
+		&#039;HTTP_ACCEPT&#039; =&gt; &#039;*/*&#039;,
+		&#039;REMOTE_ADDR&#039; =&gt; &#039;192.168.20.10&#039;,
+		&#039;SHLVL&#039; =&gt; &#039;0&#039;,
+		&#039;SERVER_NAME&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;SERVER_SOFTWARE&#039; =&gt; &#039;Apache&#039;,
+		&#039;QUERY_STRING&#039; =&gt; &#039;&#039;,
+		&#039;SERVER_ADDR&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;GATEWAY_INTERFACE&#039; =&gt; &#039;CGI/1.1&#039;,
+		&#039;SERVER_PROTOCOL&#039; =&gt; &#039;HTTP/1.1&#039;,
+		&#039;HTTP_ACCEPT_ENCODING&#039; =&gt; &#039;gzip, deflate&#039;,
+		&#039;REDIRECT_URL&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;ORIG_SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/cgi-bin/php56.fcgi&#039;,
+		&#039;ORIG_PATH_INFO&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_PATH_TRANSLATED&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_SCRIPT_NAME&#039; =&gt; &#039;/cgi-bin/php56.fcgi&#039;,
+		&#039;PHP_SELF&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_TIME_FLOAT&#039; =&gt; (float) 1557820218.9829,
+		&#039;REQUEST_TIME&#039; =&gt; (int) 1557820218,
+		&#039;ORIGINAL_REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;HTTP_X_REQUESTED_WITH&#039; =&gt; null
+	]
+	[protected] url =&gt; &#039;services/js/bootstrap.min.js&#039;
+	[protected] base =&gt; &#039;/united_missions&#039;
+	[protected] webroot =&gt; &#039;/united_missions/&#039;
+	[protected] here =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;
+	[protected] _input =&gt; null
+	[protected] _detectors =&gt; [
+		&#039;get&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;GET&#039;
+		],
+		&#039;post&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;POST&#039;
+		],
+		&#039;put&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PUT&#039;
+		],
+		&#039;patch&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PATCH&#039;
+		],
+		&#039;delete&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;DELETE&#039;
+		],
+		&#039;head&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;HEAD&#039;
+		],
+		&#039;options&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;OPTIONS&#039;
+		],
+		&#039;ssl&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTPS&#039;,
+			&#039;options&#039; =&gt; [
+				[maximum depth reached]
+			]
+		],
+		&#039;ajax&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_X_REQUESTED_WITH&#039;,
+			&#039;value&#039; =&gt; &#039;XMLHttpRequest&#039;
+		],
+		&#039;flash&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_USER_AGENT&#039;,
+			&#039;pattern&#039; =&gt; &#039;/^(Shockwave|Adobe) Flash/&#039;
+		],
+		&#039;requested&#039; =&gt; [
+			&#039;param&#039; =&gt; &#039;requested&#039;,
+			&#039;value&#039; =&gt; (int) 1
+		],
+		&#039;json&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;json&#039;
+		],
+		&#039;xml&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;xml&#039;
+		],
+		&#039;mobile&#039; =&gt; object(Closure) {},
+		&#039;tablet&#039; =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; [
+		&#039;ajax&#039; =&gt; false,
+		&#039;get&#039; =&gt; true,
+		&#039;head&#039; =&gt; false,
+		&#039;options&#039; =&gt; false
+	]
+	[protected] stream =&gt; object(Zend\Diactoros\PhpInputStream) {
+		[protected] resource =&gt; resource
+		[protected] stream =&gt; &#039;php://input&#039;
+		[private] cache =&gt; &#039;&#039;
+		[private] reachedEof =&gt; false
+	}
+	[protected] uri =&gt; object(Zend\Diactoros\Uri) {
+		base =&gt; &#039;/united_missions&#039;
+		webroot =&gt; &#039;/united_missions/&#039;
+		[protected] allowedSchemes =&gt; [
+			[maximum depth reached]
+		]
+		[private] scheme =&gt; &#039;http&#039;
+		[private] userInfo =&gt; &#039;&#039;
+		[private] host =&gt; &#039;192.168.1.63&#039;
+		[private] port =&gt; null
+		[private] path =&gt; &#039;/services/js/bootstrap.min.js&#039;
+		[private] query =&gt; &#039;&#039;
+		[private] fragment =&gt; &#039;&#039;
+		[private] uriString =&gt; null
+	}
+	[protected] session =&gt; object(Cake\Http\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; (int) 1440
+		[protected] _isCLI =&gt; false
+	}
+	[protected] attributes =&gt; []
+	[protected] emulatedAttributes =&gt; [
+		(int) 0 =&gt; &#039;session&#039;,
+		(int) 1 =&gt; &#039;webroot&#039;,
+		(int) 2 =&gt; &#039;base&#039;,
+		(int) 3 =&gt; &#039;params&#039;,
+		(int) 4 =&gt; &#039;here&#039;
+	]
+	[protected] uploadedFiles =&gt; []
+	[protected] protocol =&gt; null
+	[protected] requestTarget =&gt; null
+	[private] deprecatedProperties =&gt; [
+		&#039;data&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getData()&#039;,
+			&#039;set&#039; =&gt; &#039;withData()&#039;
+		],
+		&#039;query&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getQuery()&#039;,
+			&#039;set&#039; =&gt; &#039;withQueryParams()&#039;
+		],
+		&#039;params&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getParam()&#039;,
+			&#039;set&#039; =&gt; &#039;withParam()&#039;
+		],
+		&#039;cookies&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getCookie()&#039;,
+			&#039;set&#039; =&gt; &#039;withCookieParams()&#039;
+		],
+		&#039;url&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getPath()&#039;,
+			&#039;set&#039; =&gt; &#039;withRequestTarget()&#039;
+		],
+		&#039;base&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;base&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;base&quot;)&#039;
+		],
+		&#039;webroot&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;webroot&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;webroot&quot;)&#039;
+		],
+		&#039;here&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;here&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;here&quot;)&#039;
+		]
+	]
+}
+object(Cake\Http\Response) {
+
+	&#039;status&#039; =&gt; (int) 200,
+	&#039;contentType&#039; =&gt; &#039;text/html&#039;,
+	&#039;headers&#039; =&gt; [
+		&#039;Content-Type&#039; =&gt; [
+			(int) 0 =&gt; &#039;text/html; charset=UTF-8&#039;
+		]
+	],
+	&#039;file&#039; =&gt; null,
+	&#039;fileRange&#039; =&gt; [],
+	&#039;cookies&#039; =&gt; object(Cake\Http\Cookie\CookieCollection) {
+		[protected] cookies =&gt; [[maximum depth reached]]
+	},
+	&#039;cacheDirectives&#039; =&gt; [],
+	&#039;body&#039; =&gt; &#039;&#039;
+
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-5" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/cakephp/src/Http/Runner.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-5">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="61"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$next&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">middleware</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">get</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">index</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="62"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$next</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="63"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">index</span><span style="color: #007700">++;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="64"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="65"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$next</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="66"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="67"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="68"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;End&nbsp;of&nbsp;the&nbsp;queue</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="69"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-5" style="display: none;">
+            <pre>object(Cake\Http\ServerRequest) {
+	trustProxy =&gt; false
+	[protected] params =&gt; [
+		&#039;plugin&#039; =&gt; null,
+		&#039;controller&#039; =&gt; null,
+		&#039;action&#039; =&gt; null,
+		&#039;_ext&#039; =&gt; null,
+		&#039;pass&#039; =&gt; []
+	]
+	[protected] data =&gt; []
+	[protected] query =&gt; []
+	[protected] cookies =&gt; []
+	[protected] _environment =&gt; [
+		&#039;SERVER_SIGNATURE&#039; =&gt; &#039;&lt;address&gt;Apache Server at 192.168.1.63 Port 80&lt;/address&gt;
+&#039;,
+		&#039;HTTP_USER_AGENT&#039; =&gt; &#039;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0&#039;,
+		&#039;REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;SERVER_PORT&#039; =&gt; &#039;80&#039;,
+		&#039;HTTP_HOST&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;REDIRECT_HANDLER&#039; =&gt; &#039;php56-fcgi&#039;,
+		&#039;DOCUMENT_ROOT&#039; =&gt; &#039;/var/www/html/projects/&#039;,
+		&#039;SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_URI&#039; =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;,
+		&#039;SCRIPT_NAME&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REDIRECT_REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_CONNECTION&#039; =&gt; &#039;keep-alive&#039;,
+		&#039;REMOTE_PORT&#039; =&gt; &#039;52100&#039;,
+		&#039;PATH&#039; =&gt; &#039;/sbin:/usr/sbin:/bin:/usr/bin&#039;,
+		&#039;PWD&#039; =&gt; &#039;/var/www/cgi-bin&#039;,
+		&#039;SERVER_ADMIN&#039; =&gt; &#039;root@localhost&#039;,
+		&#039;REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_ACCEPT_LANGUAGE&#039; =&gt; &#039;en-US,en;q=0.5&#039;,
+		&#039;HTTP_REFERER&#039; =&gt; &#039;http://192.168.1.63/united_missions/services/api&#039;,
+		&#039;HTTP_ACCEPT&#039; =&gt; &#039;*/*&#039;,
+		&#039;REMOTE_ADDR&#039; =&gt; &#039;192.168.20.10&#039;,
+		&#039;SHLVL&#039; =&gt; &#039;0&#039;,
+		&#039;SERVER_NAME&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;SERVER_SOFTWARE&#039; =&gt; &#039;Apache&#039;,
+		&#039;QUERY_STRING&#039; =&gt; &#039;&#039;,
+		&#039;SERVER_ADDR&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;GATEWAY_INTERFACE&#039; =&gt; &#039;CGI/1.1&#039;,
+		&#039;SERVER_PROTOCOL&#039; =&gt; &#039;HTTP/1.1&#039;,
+		&#039;HTTP_ACCEPT_ENCODING&#039; =&gt; &#039;gzip, deflate&#039;,
+		&#039;REDIRECT_URL&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;ORIG_SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/cgi-bin/php56.fcgi&#039;,
+		&#039;ORIG_PATH_INFO&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_PATH_TRANSLATED&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_SCRIPT_NAME&#039; =&gt; &#039;/cgi-bin/php56.fcgi&#039;,
+		&#039;PHP_SELF&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_TIME_FLOAT&#039; =&gt; (float) 1557820218.9829,
+		&#039;REQUEST_TIME&#039; =&gt; (int) 1557820218,
+		&#039;ORIGINAL_REQUEST_METHOD&#039; =&gt; &#039;GET&#039;
+	]
+	[protected] url =&gt; &#039;services/js/bootstrap.min.js&#039;
+	[protected] base =&gt; &#039;/united_missions&#039;
+	[protected] webroot =&gt; &#039;/united_missions/&#039;
+	[protected] here =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;
+	[protected] _input =&gt; null
+	[protected] _detectors =&gt; [
+		&#039;get&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;GET&#039;
+		],
+		&#039;post&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;POST&#039;
+		],
+		&#039;put&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PUT&#039;
+		],
+		&#039;patch&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PATCH&#039;
+		],
+		&#039;delete&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;DELETE&#039;
+		],
+		&#039;head&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;HEAD&#039;
+		],
+		&#039;options&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;OPTIONS&#039;
+		],
+		&#039;ssl&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTPS&#039;,
+			&#039;options&#039; =&gt; [
+				[maximum depth reached]
+			]
+		],
+		&#039;ajax&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_X_REQUESTED_WITH&#039;,
+			&#039;value&#039; =&gt; &#039;XMLHttpRequest&#039;
+		],
+		&#039;flash&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_USER_AGENT&#039;,
+			&#039;pattern&#039; =&gt; &#039;/^(Shockwave|Adobe) Flash/&#039;
+		],
+		&#039;requested&#039; =&gt; [
+			&#039;param&#039; =&gt; &#039;requested&#039;,
+			&#039;value&#039; =&gt; (int) 1
+		],
+		&#039;json&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;json&#039;
+		],
+		&#039;xml&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;xml&#039;
+		],
+		&#039;mobile&#039; =&gt; object(Closure) {},
+		&#039;tablet&#039; =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; []
+	[protected] stream =&gt; object(Zend\Diactoros\PhpInputStream) {
+		[protected] resource =&gt; resource
+		[protected] stream =&gt; &#039;php://input&#039;
+		[private] cache =&gt; &#039;&#039;
+		[private] reachedEof =&gt; false
+	}
+	[protected] uri =&gt; object(Zend\Diactoros\Uri) {
+		base =&gt; &#039;/united_missions&#039;
+		webroot =&gt; &#039;/united_missions/&#039;
+		[protected] allowedSchemes =&gt; [
+			[maximum depth reached]
+		]
+		[private] scheme =&gt; &#039;http&#039;
+		[private] userInfo =&gt; &#039;&#039;
+		[private] host =&gt; &#039;192.168.1.63&#039;
+		[private] port =&gt; null
+		[private] path =&gt; &#039;/services/js/bootstrap.min.js&#039;
+		[private] query =&gt; &#039;&#039;
+		[private] fragment =&gt; &#039;&#039;
+		[private] uriString =&gt; null
+	}
+	[protected] session =&gt; object(Cake\Http\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; (int) 1440
+		[protected] _isCLI =&gt; false
+	}
+	[protected] attributes =&gt; []
+	[protected] emulatedAttributes =&gt; [
+		(int) 0 =&gt; &#039;session&#039;,
+		(int) 1 =&gt; &#039;webroot&#039;,
+		(int) 2 =&gt; &#039;base&#039;,
+		(int) 3 =&gt; &#039;params&#039;,
+		(int) 4 =&gt; &#039;here&#039;
+	]
+	[protected] uploadedFiles =&gt; []
+	[protected] protocol =&gt; null
+	[protected] requestTarget =&gt; null
+	[private] deprecatedProperties =&gt; [
+		&#039;data&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getData()&#039;,
+			&#039;set&#039; =&gt; &#039;withData()&#039;
+		],
+		&#039;query&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getQuery()&#039;,
+			&#039;set&#039; =&gt; &#039;withQueryParams()&#039;
+		],
+		&#039;params&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getParam()&#039;,
+			&#039;set&#039; =&gt; &#039;withParam()&#039;
+		],
+		&#039;cookies&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getCookie()&#039;,
+			&#039;set&#039; =&gt; &#039;withCookieParams()&#039;
+		],
+		&#039;url&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getPath()&#039;,
+			&#039;set&#039; =&gt; &#039;withRequestTarget()&#039;
+		],
+		&#039;base&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;base&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;base&quot;)&#039;
+		],
+		&#039;webroot&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;webroot&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;webroot&quot;)&#039;
+		],
+		&#039;here&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;here&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;here&quot;)&#039;
+		]
+	]
+}
+object(Cake\Http\Response) {
+
+	&#039;status&#039; =&gt; (int) 200,
+	&#039;contentType&#039; =&gt; &#039;text/html&#039;,
+	&#039;headers&#039; =&gt; [
+		&#039;Content-Type&#039; =&gt; [
+			(int) 0 =&gt; &#039;text/html; charset=UTF-8&#039;
+		]
+	],
+	&#039;file&#039; =&gt; null,
+	&#039;fileRange&#039; =&gt; [],
+	&#039;cookies&#039; =&gt; object(Cake\Http\Cookie\CookieCollection) {
+		[protected] cookies =&gt; [[maximum depth reached]]
+	},
+	&#039;cacheDirectives&#039; =&gt; [],
+	&#039;body&#039; =&gt; &#039;&#039;
+
+}
+object(Cake\Http\Runner) {
+	[protected] index =&gt; (int) 5
+	[protected] middleware =&gt; object(Cake\Http\MiddlewareQueue) {
+		[protected] queue =&gt; [
+			[maximum depth reached]
+		]
+		[protected] callables =&gt; [
+			[maximum depth reached]
+		]
+	}
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-6" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-6">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="93"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="94"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="95"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$assetFile&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_getAssetFile</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="96"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$assetFile&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">null&nbsp;</span><span style="color: #007700">||&nbsp;!</span><span style="color: #0000BB">file_exists</span><span style="color: #007700">(</span><span style="color: #0000BB">$assetFile</span><span style="color: #007700">))&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="97"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$next</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="98"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="99"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="100"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$file&nbsp;</span><span style="color: #007700">=&nbsp;new&nbsp;</span><span style="color: #0000BB">File</span><span style="color: #007700">(</span><span style="color: #0000BB">$assetFile</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="101"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$modifiedTime&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$file</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">lastChange</span><span style="color: #007700">();</span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-6" style="display: none;">
+            <pre>object(Cake\Http\ServerRequest) {
+	trustProxy =&gt; false
+	[protected] params =&gt; [
+		&#039;plugin&#039; =&gt; null,
+		&#039;controller&#039; =&gt; null,
+		&#039;action&#039; =&gt; null,
+		&#039;_ext&#039; =&gt; null,
+		&#039;pass&#039; =&gt; []
+	]
+	[protected] data =&gt; []
+	[protected] query =&gt; []
+	[protected] cookies =&gt; []
+	[protected] _environment =&gt; [
+		&#039;SERVER_SIGNATURE&#039; =&gt; &#039;&lt;address&gt;Apache Server at 192.168.1.63 Port 80&lt;/address&gt;
+&#039;,
+		&#039;HTTP_USER_AGENT&#039; =&gt; &#039;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0&#039;,
+		&#039;REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;SERVER_PORT&#039; =&gt; &#039;80&#039;,
+		&#039;HTTP_HOST&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;REDIRECT_HANDLER&#039; =&gt; &#039;php56-fcgi&#039;,
+		&#039;DOCUMENT_ROOT&#039; =&gt; &#039;/var/www/html/projects/&#039;,
+		&#039;SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_URI&#039; =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;,
+		&#039;SCRIPT_NAME&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REDIRECT_REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_CONNECTION&#039; =&gt; &#039;keep-alive&#039;,
+		&#039;REMOTE_PORT&#039; =&gt; &#039;52100&#039;,
+		&#039;PATH&#039; =&gt; &#039;/sbin:/usr/sbin:/bin:/usr/bin&#039;,
+		&#039;PWD&#039; =&gt; &#039;/var/www/cgi-bin&#039;,
+		&#039;SERVER_ADMIN&#039; =&gt; &#039;root@localhost&#039;,
+		&#039;REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_ACCEPT_LANGUAGE&#039; =&gt; &#039;en-US,en;q=0.5&#039;,
+		&#039;HTTP_REFERER&#039; =&gt; &#039;http://192.168.1.63/united_missions/services/api&#039;,
+		&#039;HTTP_ACCEPT&#039; =&gt; &#039;*/*&#039;,
+		&#039;REMOTE_ADDR&#039; =&gt; &#039;192.168.20.10&#039;,
+		&#039;SHLVL&#039; =&gt; &#039;0&#039;,
+		&#039;SERVER_NAME&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;SERVER_SOFTWARE&#039; =&gt; &#039;Apache&#039;,
+		&#039;QUERY_STRING&#039; =&gt; &#039;&#039;,
+		&#039;SERVER_ADDR&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;GATEWAY_INTERFACE&#039; =&gt; &#039;CGI/1.1&#039;,
+		&#039;SERVER_PROTOCOL&#039; =&gt; &#039;HTTP/1.1&#039;,
+		&#039;HTTP_ACCEPT_ENCODING&#039; =&gt; &#039;gzip, deflate&#039;,
+		&#039;REDIRECT_URL&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;ORIG_SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/cgi-bin/php56.fcgi&#039;,
+		&#039;ORIG_PATH_INFO&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_PATH_TRANSLATED&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_SCRIPT_NAME&#039; =&gt; &#039;/cgi-bin/php56.fcgi&#039;,
+		&#039;PHP_SELF&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_TIME_FLOAT&#039; =&gt; (float) 1557820218.9829,
+		&#039;REQUEST_TIME&#039; =&gt; (int) 1557820218,
+		&#039;ORIGINAL_REQUEST_METHOD&#039; =&gt; &#039;GET&#039;
+	]
+	[protected] url =&gt; &#039;services/js/bootstrap.min.js&#039;
+	[protected] base =&gt; &#039;/united_missions&#039;
+	[protected] webroot =&gt; &#039;/united_missions/&#039;
+	[protected] here =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;
+	[protected] _input =&gt; null
+	[protected] _detectors =&gt; [
+		&#039;get&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;GET&#039;
+		],
+		&#039;post&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;POST&#039;
+		],
+		&#039;put&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PUT&#039;
+		],
+		&#039;patch&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PATCH&#039;
+		],
+		&#039;delete&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;DELETE&#039;
+		],
+		&#039;head&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;HEAD&#039;
+		],
+		&#039;options&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;OPTIONS&#039;
+		],
+		&#039;ssl&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTPS&#039;,
+			&#039;options&#039; =&gt; [
+				[maximum depth reached]
+			]
+		],
+		&#039;ajax&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_X_REQUESTED_WITH&#039;,
+			&#039;value&#039; =&gt; &#039;XMLHttpRequest&#039;
+		],
+		&#039;flash&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_USER_AGENT&#039;,
+			&#039;pattern&#039; =&gt; &#039;/^(Shockwave|Adobe) Flash/&#039;
+		],
+		&#039;requested&#039; =&gt; [
+			&#039;param&#039; =&gt; &#039;requested&#039;,
+			&#039;value&#039; =&gt; (int) 1
+		],
+		&#039;json&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;json&#039;
+		],
+		&#039;xml&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;xml&#039;
+		],
+		&#039;mobile&#039; =&gt; object(Closure) {},
+		&#039;tablet&#039; =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; []
+	[protected] stream =&gt; object(Zend\Diactoros\PhpInputStream) {
+		[protected] resource =&gt; resource
+		[protected] stream =&gt; &#039;php://input&#039;
+		[private] cache =&gt; &#039;&#039;
+		[private] reachedEof =&gt; false
+	}
+	[protected] uri =&gt; object(Zend\Diactoros\Uri) {
+		base =&gt; &#039;/united_missions&#039;
+		webroot =&gt; &#039;/united_missions/&#039;
+		[protected] allowedSchemes =&gt; [
+			[maximum depth reached]
+		]
+		[private] scheme =&gt; &#039;http&#039;
+		[private] userInfo =&gt; &#039;&#039;
+		[private] host =&gt; &#039;192.168.1.63&#039;
+		[private] port =&gt; null
+		[private] path =&gt; &#039;/services/js/bootstrap.min.js&#039;
+		[private] query =&gt; &#039;&#039;
+		[private] fragment =&gt; &#039;&#039;
+		[private] uriString =&gt; null
+	}
+	[protected] session =&gt; object(Cake\Http\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; (int) 1440
+		[protected] _isCLI =&gt; false
+	}
+	[protected] attributes =&gt; []
+	[protected] emulatedAttributes =&gt; [
+		(int) 0 =&gt; &#039;session&#039;,
+		(int) 1 =&gt; &#039;webroot&#039;,
+		(int) 2 =&gt; &#039;base&#039;,
+		(int) 3 =&gt; &#039;params&#039;,
+		(int) 4 =&gt; &#039;here&#039;
+	]
+	[protected] uploadedFiles =&gt; []
+	[protected] protocol =&gt; null
+	[protected] requestTarget =&gt; null
+	[private] deprecatedProperties =&gt; [
+		&#039;data&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getData()&#039;,
+			&#039;set&#039; =&gt; &#039;withData()&#039;
+		],
+		&#039;query&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getQuery()&#039;,
+			&#039;set&#039; =&gt; &#039;withQueryParams()&#039;
+		],
+		&#039;params&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getParam()&#039;,
+			&#039;set&#039; =&gt; &#039;withParam()&#039;
+		],
+		&#039;cookies&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getCookie()&#039;,
+			&#039;set&#039; =&gt; &#039;withCookieParams()&#039;
+		],
+		&#039;url&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getPath()&#039;,
+			&#039;set&#039; =&gt; &#039;withRequestTarget()&#039;
+		],
+		&#039;base&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;base&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;base&quot;)&#039;
+		],
+		&#039;webroot&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;webroot&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;webroot&quot;)&#039;
+		],
+		&#039;here&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;here&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;here&quot;)&#039;
+		]
+	]
+}
+object(Cake\Http\Response) {
+
+	&#039;status&#039; =&gt; (int) 200,
+	&#039;contentType&#039; =&gt; &#039;text/html&#039;,
+	&#039;headers&#039; =&gt; [
+		&#039;Content-Type&#039; =&gt; [
+			(int) 0 =&gt; &#039;text/html; charset=UTF-8&#039;
+		]
+	],
+	&#039;file&#039; =&gt; null,
+	&#039;fileRange&#039; =&gt; [],
+	&#039;cookies&#039; =&gt; object(Cake\Http\Cookie\CookieCollection) {
+		[protected] cookies =&gt; [[maximum depth reached]]
+	},
+	&#039;cacheDirectives&#039; =&gt; [],
+	&#039;body&#039; =&gt; &#039;&#039;
+
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-7" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/cakephp/src/Http/Runner.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-7">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="61"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$next&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">middleware</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">get</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">index</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="62"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$next</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="63"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">index</span><span style="color: #007700">++;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="64"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="65"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$next</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="66"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="67"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="68"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;End&nbsp;of&nbsp;the&nbsp;queue</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="69"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-7" style="display: none;">
+            <pre>object(Cake\Http\ServerRequest) {
+	trustProxy =&gt; false
+	[protected] params =&gt; [
+		&#039;plugin&#039; =&gt; null,
+		&#039;controller&#039; =&gt; null,
+		&#039;action&#039; =&gt; null,
+		&#039;_ext&#039; =&gt; null,
+		&#039;pass&#039; =&gt; []
+	]
+	[protected] data =&gt; []
+	[protected] query =&gt; []
+	[protected] cookies =&gt; []
+	[protected] _environment =&gt; [
+		&#039;SERVER_SIGNATURE&#039; =&gt; &#039;&lt;address&gt;Apache Server at 192.168.1.63 Port 80&lt;/address&gt;
+&#039;,
+		&#039;HTTP_USER_AGENT&#039; =&gt; &#039;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0&#039;,
+		&#039;REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;SERVER_PORT&#039; =&gt; &#039;80&#039;,
+		&#039;HTTP_HOST&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;REDIRECT_HANDLER&#039; =&gt; &#039;php56-fcgi&#039;,
+		&#039;DOCUMENT_ROOT&#039; =&gt; &#039;/var/www/html/projects/&#039;,
+		&#039;SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_URI&#039; =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;,
+		&#039;SCRIPT_NAME&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REDIRECT_REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_CONNECTION&#039; =&gt; &#039;keep-alive&#039;,
+		&#039;REMOTE_PORT&#039; =&gt; &#039;52100&#039;,
+		&#039;PATH&#039; =&gt; &#039;/sbin:/usr/sbin:/bin:/usr/bin&#039;,
+		&#039;PWD&#039; =&gt; &#039;/var/www/cgi-bin&#039;,
+		&#039;SERVER_ADMIN&#039; =&gt; &#039;root@localhost&#039;,
+		&#039;REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_ACCEPT_LANGUAGE&#039; =&gt; &#039;en-US,en;q=0.5&#039;,
+		&#039;HTTP_REFERER&#039; =&gt; &#039;http://192.168.1.63/united_missions/services/api&#039;,
+		&#039;HTTP_ACCEPT&#039; =&gt; &#039;*/*&#039;,
+		&#039;REMOTE_ADDR&#039; =&gt; &#039;192.168.20.10&#039;,
+		&#039;SHLVL&#039; =&gt; &#039;0&#039;,
+		&#039;SERVER_NAME&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;SERVER_SOFTWARE&#039; =&gt; &#039;Apache&#039;,
+		&#039;QUERY_STRING&#039; =&gt; &#039;&#039;,
+		&#039;SERVER_ADDR&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;GATEWAY_INTERFACE&#039; =&gt; &#039;CGI/1.1&#039;,
+		&#039;SERVER_PROTOCOL&#039; =&gt; &#039;HTTP/1.1&#039;,
+		&#039;HTTP_ACCEPT_ENCODING&#039; =&gt; &#039;gzip, deflate&#039;,
+		&#039;REDIRECT_URL&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;ORIG_SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/cgi-bin/php56.fcgi&#039;,
+		&#039;ORIG_PATH_INFO&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_PATH_TRANSLATED&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_SCRIPT_NAME&#039; =&gt; &#039;/cgi-bin/php56.fcgi&#039;,
+		&#039;PHP_SELF&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_TIME_FLOAT&#039; =&gt; (float) 1557820218.9829,
+		&#039;REQUEST_TIME&#039; =&gt; (int) 1557820218,
+		&#039;ORIGINAL_REQUEST_METHOD&#039; =&gt; &#039;GET&#039;
+	]
+	[protected] url =&gt; &#039;services/js/bootstrap.min.js&#039;
+	[protected] base =&gt; &#039;/united_missions&#039;
+	[protected] webroot =&gt; &#039;/united_missions/&#039;
+	[protected] here =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;
+	[protected] _input =&gt; null
+	[protected] _detectors =&gt; [
+		&#039;get&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;GET&#039;
+		],
+		&#039;post&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;POST&#039;
+		],
+		&#039;put&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PUT&#039;
+		],
+		&#039;patch&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PATCH&#039;
+		],
+		&#039;delete&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;DELETE&#039;
+		],
+		&#039;head&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;HEAD&#039;
+		],
+		&#039;options&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;OPTIONS&#039;
+		],
+		&#039;ssl&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTPS&#039;,
+			&#039;options&#039; =&gt; [
+				[maximum depth reached]
+			]
+		],
+		&#039;ajax&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_X_REQUESTED_WITH&#039;,
+			&#039;value&#039; =&gt; &#039;XMLHttpRequest&#039;
+		],
+		&#039;flash&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_USER_AGENT&#039;,
+			&#039;pattern&#039; =&gt; &#039;/^(Shockwave|Adobe) Flash/&#039;
+		],
+		&#039;requested&#039; =&gt; [
+			&#039;param&#039; =&gt; &#039;requested&#039;,
+			&#039;value&#039; =&gt; (int) 1
+		],
+		&#039;json&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;json&#039;
+		],
+		&#039;xml&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;xml&#039;
+		],
+		&#039;mobile&#039; =&gt; object(Closure) {},
+		&#039;tablet&#039; =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; []
+	[protected] stream =&gt; object(Zend\Diactoros\PhpInputStream) {
+		[protected] resource =&gt; resource
+		[protected] stream =&gt; &#039;php://input&#039;
+		[private] cache =&gt; &#039;&#039;
+		[private] reachedEof =&gt; false
+	}
+	[protected] uri =&gt; object(Zend\Diactoros\Uri) {
+		base =&gt; &#039;/united_missions&#039;
+		webroot =&gt; &#039;/united_missions/&#039;
+		[protected] allowedSchemes =&gt; [
+			[maximum depth reached]
+		]
+		[private] scheme =&gt; &#039;http&#039;
+		[private] userInfo =&gt; &#039;&#039;
+		[private] host =&gt; &#039;192.168.1.63&#039;
+		[private] port =&gt; null
+		[private] path =&gt; &#039;/services/js/bootstrap.min.js&#039;
+		[private] query =&gt; &#039;&#039;
+		[private] fragment =&gt; &#039;&#039;
+		[private] uriString =&gt; null
+	}
+	[protected] session =&gt; object(Cake\Http\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; (int) 1440
+		[protected] _isCLI =&gt; false
+	}
+	[protected] attributes =&gt; []
+	[protected] emulatedAttributes =&gt; [
+		(int) 0 =&gt; &#039;session&#039;,
+		(int) 1 =&gt; &#039;webroot&#039;,
+		(int) 2 =&gt; &#039;base&#039;,
+		(int) 3 =&gt; &#039;params&#039;,
+		(int) 4 =&gt; &#039;here&#039;
+	]
+	[protected] uploadedFiles =&gt; []
+	[protected] protocol =&gt; null
+	[protected] requestTarget =&gt; null
+	[private] deprecatedProperties =&gt; [
+		&#039;data&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getData()&#039;,
+			&#039;set&#039; =&gt; &#039;withData()&#039;
+		],
+		&#039;query&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getQuery()&#039;,
+			&#039;set&#039; =&gt; &#039;withQueryParams()&#039;
+		],
+		&#039;params&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getParam()&#039;,
+			&#039;set&#039; =&gt; &#039;withParam()&#039;
+		],
+		&#039;cookies&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getCookie()&#039;,
+			&#039;set&#039; =&gt; &#039;withCookieParams()&#039;
+		],
+		&#039;url&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getPath()&#039;,
+			&#039;set&#039; =&gt; &#039;withRequestTarget()&#039;
+		],
+		&#039;base&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;base&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;base&quot;)&#039;
+		],
+		&#039;webroot&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;webroot&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;webroot&quot;)&#039;
+		],
+		&#039;here&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;here&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;here&quot;)&#039;
+		]
+	]
+}
+object(Cake\Http\Response) {
+
+	&#039;status&#039; =&gt; (int) 200,
+	&#039;contentType&#039; =&gt; &#039;text/html&#039;,
+	&#039;headers&#039; =&gt; [
+		&#039;Content-Type&#039; =&gt; [
+			(int) 0 =&gt; &#039;text/html; charset=UTF-8&#039;
+		]
+	],
+	&#039;file&#039; =&gt; null,
+	&#039;fileRange&#039; =&gt; [],
+	&#039;cookies&#039; =&gt; object(Cake\Http\Cookie\CookieCollection) {
+		[protected] cookies =&gt; [[maximum depth reached]]
+	},
+	&#039;cacheDirectives&#039; =&gt; [],
+	&#039;body&#039; =&gt; &#039;&#039;
+
+}
+object(Cake\Http\Runner) {
+	[protected] index =&gt; (int) 5
+	[protected] middleware =&gt; object(Cake\Http\MiddlewareQueue) {
+		[protected] queue =&gt; [
+			[maximum depth reached]
+		]
+		[protected] callables =&gt; [
+			[maximum depth reached]
+		]
+	}
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-8" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-8">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="94"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*/</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="95"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">__invoke</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$next</span><span style="color: #007700">)</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="96"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="97"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">try&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="98"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$next</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="99"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}&nbsp;catch&nbsp;(</span><span style="color: #0000BB">Throwable&nbsp;$exception</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="100"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">handleException</span><span style="color: #007700">(</span><span style="color: #0000BB">$exception</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="101"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}&nbsp;catch&nbsp;(</span><span style="color: #0000BB">Exception&nbsp;$exception</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="102"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">handleException</span><span style="color: #007700">(</span><span style="color: #0000BB">$exception</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-8" style="display: none;">
+            <pre>object(Cake\Http\ServerRequest) {
+	trustProxy =&gt; false
+	[protected] params =&gt; [
+		&#039;plugin&#039; =&gt; null,
+		&#039;controller&#039; =&gt; null,
+		&#039;action&#039; =&gt; null,
+		&#039;_ext&#039; =&gt; null,
+		&#039;pass&#039; =&gt; []
+	]
+	[protected] data =&gt; []
+	[protected] query =&gt; []
+	[protected] cookies =&gt; []
+	[protected] _environment =&gt; [
+		&#039;SERVER_SIGNATURE&#039; =&gt; &#039;&lt;address&gt;Apache Server at 192.168.1.63 Port 80&lt;/address&gt;
+&#039;,
+		&#039;HTTP_USER_AGENT&#039; =&gt; &#039;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0&#039;,
+		&#039;REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;SERVER_PORT&#039; =&gt; &#039;80&#039;,
+		&#039;HTTP_HOST&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;REDIRECT_HANDLER&#039; =&gt; &#039;php56-fcgi&#039;,
+		&#039;DOCUMENT_ROOT&#039; =&gt; &#039;/var/www/html/projects/&#039;,
+		&#039;SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_URI&#039; =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;,
+		&#039;SCRIPT_NAME&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REDIRECT_REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_CONNECTION&#039; =&gt; &#039;keep-alive&#039;,
+		&#039;REMOTE_PORT&#039; =&gt; &#039;52100&#039;,
+		&#039;PATH&#039; =&gt; &#039;/sbin:/usr/sbin:/bin:/usr/bin&#039;,
+		&#039;PWD&#039; =&gt; &#039;/var/www/cgi-bin&#039;,
+		&#039;SERVER_ADMIN&#039; =&gt; &#039;root@localhost&#039;,
+		&#039;REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_ACCEPT_LANGUAGE&#039; =&gt; &#039;en-US,en;q=0.5&#039;,
+		&#039;HTTP_REFERER&#039; =&gt; &#039;http://192.168.1.63/united_missions/services/api&#039;,
+		&#039;HTTP_ACCEPT&#039; =&gt; &#039;*/*&#039;,
+		&#039;REMOTE_ADDR&#039; =&gt; &#039;192.168.20.10&#039;,
+		&#039;SHLVL&#039; =&gt; &#039;0&#039;,
+		&#039;SERVER_NAME&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;SERVER_SOFTWARE&#039; =&gt; &#039;Apache&#039;,
+		&#039;QUERY_STRING&#039; =&gt; &#039;&#039;,
+		&#039;SERVER_ADDR&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;GATEWAY_INTERFACE&#039; =&gt; &#039;CGI/1.1&#039;,
+		&#039;SERVER_PROTOCOL&#039; =&gt; &#039;HTTP/1.1&#039;,
+		&#039;HTTP_ACCEPT_ENCODING&#039; =&gt; &#039;gzip, deflate&#039;,
+		&#039;REDIRECT_URL&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;ORIG_SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/cgi-bin/php56.fcgi&#039;,
+		&#039;ORIG_PATH_INFO&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_PATH_TRANSLATED&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_SCRIPT_NAME&#039; =&gt; &#039;/cgi-bin/php56.fcgi&#039;,
+		&#039;PHP_SELF&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_TIME_FLOAT&#039; =&gt; (float) 1557820218.9829,
+		&#039;REQUEST_TIME&#039; =&gt; (int) 1557820218,
+		&#039;ORIGINAL_REQUEST_METHOD&#039; =&gt; &#039;GET&#039;
+	]
+	[protected] url =&gt; &#039;services/js/bootstrap.min.js&#039;
+	[protected] base =&gt; &#039;/united_missions&#039;
+	[protected] webroot =&gt; &#039;/united_missions/&#039;
+	[protected] here =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;
+	[protected] _input =&gt; null
+	[protected] _detectors =&gt; [
+		&#039;get&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;GET&#039;
+		],
+		&#039;post&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;POST&#039;
+		],
+		&#039;put&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PUT&#039;
+		],
+		&#039;patch&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PATCH&#039;
+		],
+		&#039;delete&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;DELETE&#039;
+		],
+		&#039;head&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;HEAD&#039;
+		],
+		&#039;options&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;OPTIONS&#039;
+		],
+		&#039;ssl&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTPS&#039;,
+			&#039;options&#039; =&gt; [
+				[maximum depth reached]
+			]
+		],
+		&#039;ajax&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_X_REQUESTED_WITH&#039;,
+			&#039;value&#039; =&gt; &#039;XMLHttpRequest&#039;
+		],
+		&#039;flash&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_USER_AGENT&#039;,
+			&#039;pattern&#039; =&gt; &#039;/^(Shockwave|Adobe) Flash/&#039;
+		],
+		&#039;requested&#039; =&gt; [
+			&#039;param&#039; =&gt; &#039;requested&#039;,
+			&#039;value&#039; =&gt; (int) 1
+		],
+		&#039;json&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;json&#039;
+		],
+		&#039;xml&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;xml&#039;
+		],
+		&#039;mobile&#039; =&gt; object(Closure) {},
+		&#039;tablet&#039; =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; []
+	[protected] stream =&gt; object(Zend\Diactoros\PhpInputStream) {
+		[protected] resource =&gt; resource
+		[protected] stream =&gt; &#039;php://input&#039;
+		[private] cache =&gt; &#039;&#039;
+		[private] reachedEof =&gt; false
+	}
+	[protected] uri =&gt; object(Zend\Diactoros\Uri) {
+		base =&gt; &#039;/united_missions&#039;
+		webroot =&gt; &#039;/united_missions/&#039;
+		[protected] allowedSchemes =&gt; [
+			[maximum depth reached]
+		]
+		[private] scheme =&gt; &#039;http&#039;
+		[private] userInfo =&gt; &#039;&#039;
+		[private] host =&gt; &#039;192.168.1.63&#039;
+		[private] port =&gt; null
+		[private] path =&gt; &#039;/services/js/bootstrap.min.js&#039;
+		[private] query =&gt; &#039;&#039;
+		[private] fragment =&gt; &#039;&#039;
+		[private] uriString =&gt; null
+	}
+	[protected] session =&gt; object(Cake\Http\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; (int) 1440
+		[protected] _isCLI =&gt; false
+	}
+	[protected] attributes =&gt; []
+	[protected] emulatedAttributes =&gt; [
+		(int) 0 =&gt; &#039;session&#039;,
+		(int) 1 =&gt; &#039;webroot&#039;,
+		(int) 2 =&gt; &#039;base&#039;,
+		(int) 3 =&gt; &#039;params&#039;,
+		(int) 4 =&gt; &#039;here&#039;
+	]
+	[protected] uploadedFiles =&gt; []
+	[protected] protocol =&gt; null
+	[protected] requestTarget =&gt; null
+	[private] deprecatedProperties =&gt; [
+		&#039;data&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getData()&#039;,
+			&#039;set&#039; =&gt; &#039;withData()&#039;
+		],
+		&#039;query&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getQuery()&#039;,
+			&#039;set&#039; =&gt; &#039;withQueryParams()&#039;
+		],
+		&#039;params&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getParam()&#039;,
+			&#039;set&#039; =&gt; &#039;withParam()&#039;
+		],
+		&#039;cookies&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getCookie()&#039;,
+			&#039;set&#039; =&gt; &#039;withCookieParams()&#039;
+		],
+		&#039;url&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getPath()&#039;,
+			&#039;set&#039; =&gt; &#039;withRequestTarget()&#039;
+		],
+		&#039;base&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;base&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;base&quot;)&#039;
+		],
+		&#039;webroot&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;webroot&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;webroot&quot;)&#039;
+		],
+		&#039;here&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;here&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;here&quot;)&#039;
+		]
+	]
+}
+object(Cake\Http\Response) {
+
+	&#039;status&#039; =&gt; (int) 200,
+	&#039;contentType&#039; =&gt; &#039;text/html&#039;,
+	&#039;headers&#039; =&gt; [
+		&#039;Content-Type&#039; =&gt; [
+			(int) 0 =&gt; &#039;text/html; charset=UTF-8&#039;
+		]
+	],
+	&#039;file&#039; =&gt; null,
+	&#039;fileRange&#039; =&gt; [],
+	&#039;cookies&#039; =&gt; object(Cake\Http\Cookie\CookieCollection) {
+		[protected] cookies =&gt; [[maximum depth reached]]
+	},
+	&#039;cacheDirectives&#039; =&gt; [],
+	&#039;body&#039; =&gt; &#039;&#039;
+
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-9" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/cakephp/src/Http/Runner.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-9">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="61"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$next&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">middleware</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">get</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">index</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="62"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$next</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="63"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">index</span><span style="color: #007700">++;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="64"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="65"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$next</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="66"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="67"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="68"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;End&nbsp;of&nbsp;the&nbsp;queue</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="69"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-9" style="display: none;">
+            <pre>object(Cake\Http\ServerRequest) {
+	trustProxy =&gt; false
+	[protected] params =&gt; [
+		&#039;plugin&#039; =&gt; null,
+		&#039;controller&#039; =&gt; null,
+		&#039;action&#039; =&gt; null,
+		&#039;_ext&#039; =&gt; null,
+		&#039;pass&#039; =&gt; []
+	]
+	[protected] data =&gt; []
+	[protected] query =&gt; []
+	[protected] cookies =&gt; []
+	[protected] _environment =&gt; [
+		&#039;SERVER_SIGNATURE&#039; =&gt; &#039;&lt;address&gt;Apache Server at 192.168.1.63 Port 80&lt;/address&gt;
+&#039;,
+		&#039;HTTP_USER_AGENT&#039; =&gt; &#039;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0&#039;,
+		&#039;REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;SERVER_PORT&#039; =&gt; &#039;80&#039;,
+		&#039;HTTP_HOST&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;REDIRECT_HANDLER&#039; =&gt; &#039;php56-fcgi&#039;,
+		&#039;DOCUMENT_ROOT&#039; =&gt; &#039;/var/www/html/projects/&#039;,
+		&#039;SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_URI&#039; =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;,
+		&#039;SCRIPT_NAME&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REDIRECT_REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_CONNECTION&#039; =&gt; &#039;keep-alive&#039;,
+		&#039;REMOTE_PORT&#039; =&gt; &#039;52100&#039;,
+		&#039;PATH&#039; =&gt; &#039;/sbin:/usr/sbin:/bin:/usr/bin&#039;,
+		&#039;PWD&#039; =&gt; &#039;/var/www/cgi-bin&#039;,
+		&#039;SERVER_ADMIN&#039; =&gt; &#039;root@localhost&#039;,
+		&#039;REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_ACCEPT_LANGUAGE&#039; =&gt; &#039;en-US,en;q=0.5&#039;,
+		&#039;HTTP_REFERER&#039; =&gt; &#039;http://192.168.1.63/united_missions/services/api&#039;,
+		&#039;HTTP_ACCEPT&#039; =&gt; &#039;*/*&#039;,
+		&#039;REMOTE_ADDR&#039; =&gt; &#039;192.168.20.10&#039;,
+		&#039;SHLVL&#039; =&gt; &#039;0&#039;,
+		&#039;SERVER_NAME&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;SERVER_SOFTWARE&#039; =&gt; &#039;Apache&#039;,
+		&#039;QUERY_STRING&#039; =&gt; &#039;&#039;,
+		&#039;SERVER_ADDR&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;GATEWAY_INTERFACE&#039; =&gt; &#039;CGI/1.1&#039;,
+		&#039;SERVER_PROTOCOL&#039; =&gt; &#039;HTTP/1.1&#039;,
+		&#039;HTTP_ACCEPT_ENCODING&#039; =&gt; &#039;gzip, deflate&#039;,
+		&#039;REDIRECT_URL&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;ORIG_SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/cgi-bin/php56.fcgi&#039;,
+		&#039;ORIG_PATH_INFO&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_PATH_TRANSLATED&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_SCRIPT_NAME&#039; =&gt; &#039;/cgi-bin/php56.fcgi&#039;,
+		&#039;PHP_SELF&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_TIME_FLOAT&#039; =&gt; (float) 1557820218.9829,
+		&#039;REQUEST_TIME&#039; =&gt; (int) 1557820218,
+		&#039;ORIGINAL_REQUEST_METHOD&#039; =&gt; &#039;GET&#039;
+	]
+	[protected] url =&gt; &#039;services/js/bootstrap.min.js&#039;
+	[protected] base =&gt; &#039;/united_missions&#039;
+	[protected] webroot =&gt; &#039;/united_missions/&#039;
+	[protected] here =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;
+	[protected] _input =&gt; null
+	[protected] _detectors =&gt; [
+		&#039;get&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;GET&#039;
+		],
+		&#039;post&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;POST&#039;
+		],
+		&#039;put&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PUT&#039;
+		],
+		&#039;patch&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PATCH&#039;
+		],
+		&#039;delete&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;DELETE&#039;
+		],
+		&#039;head&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;HEAD&#039;
+		],
+		&#039;options&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;OPTIONS&#039;
+		],
+		&#039;ssl&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTPS&#039;,
+			&#039;options&#039; =&gt; [
+				[maximum depth reached]
+			]
+		],
+		&#039;ajax&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_X_REQUESTED_WITH&#039;,
+			&#039;value&#039; =&gt; &#039;XMLHttpRequest&#039;
+		],
+		&#039;flash&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_USER_AGENT&#039;,
+			&#039;pattern&#039; =&gt; &#039;/^(Shockwave|Adobe) Flash/&#039;
+		],
+		&#039;requested&#039; =&gt; [
+			&#039;param&#039; =&gt; &#039;requested&#039;,
+			&#039;value&#039; =&gt; (int) 1
+		],
+		&#039;json&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;json&#039;
+		],
+		&#039;xml&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;xml&#039;
+		],
+		&#039;mobile&#039; =&gt; object(Closure) {},
+		&#039;tablet&#039; =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; []
+	[protected] stream =&gt; object(Zend\Diactoros\PhpInputStream) {
+		[protected] resource =&gt; resource
+		[protected] stream =&gt; &#039;php://input&#039;
+		[private] cache =&gt; &#039;&#039;
+		[private] reachedEof =&gt; false
+	}
+	[protected] uri =&gt; object(Zend\Diactoros\Uri) {
+		base =&gt; &#039;/united_missions&#039;
+		webroot =&gt; &#039;/united_missions/&#039;
+		[protected] allowedSchemes =&gt; [
+			[maximum depth reached]
+		]
+		[private] scheme =&gt; &#039;http&#039;
+		[private] userInfo =&gt; &#039;&#039;
+		[private] host =&gt; &#039;192.168.1.63&#039;
+		[private] port =&gt; null
+		[private] path =&gt; &#039;/services/js/bootstrap.min.js&#039;
+		[private] query =&gt; &#039;&#039;
+		[private] fragment =&gt; &#039;&#039;
+		[private] uriString =&gt; null
+	}
+	[protected] session =&gt; object(Cake\Http\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; (int) 1440
+		[protected] _isCLI =&gt; false
+	}
+	[protected] attributes =&gt; []
+	[protected] emulatedAttributes =&gt; [
+		(int) 0 =&gt; &#039;session&#039;,
+		(int) 1 =&gt; &#039;webroot&#039;,
+		(int) 2 =&gt; &#039;base&#039;,
+		(int) 3 =&gt; &#039;params&#039;,
+		(int) 4 =&gt; &#039;here&#039;
+	]
+	[protected] uploadedFiles =&gt; []
+	[protected] protocol =&gt; null
+	[protected] requestTarget =&gt; null
+	[private] deprecatedProperties =&gt; [
+		&#039;data&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getData()&#039;,
+			&#039;set&#039; =&gt; &#039;withData()&#039;
+		],
+		&#039;query&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getQuery()&#039;,
+			&#039;set&#039; =&gt; &#039;withQueryParams()&#039;
+		],
+		&#039;params&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getParam()&#039;,
+			&#039;set&#039; =&gt; &#039;withParam()&#039;
+		],
+		&#039;cookies&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getCookie()&#039;,
+			&#039;set&#039; =&gt; &#039;withCookieParams()&#039;
+		],
+		&#039;url&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getPath()&#039;,
+			&#039;set&#039; =&gt; &#039;withRequestTarget()&#039;
+		],
+		&#039;base&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;base&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;base&quot;)&#039;
+		],
+		&#039;webroot&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;webroot&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;webroot&quot;)&#039;
+		],
+		&#039;here&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;here&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;here&quot;)&#039;
+		]
+	]
+}
+object(Cake\Http\Response) {
+
+	&#039;status&#039; =&gt; (int) 200,
+	&#039;contentType&#039; =&gt; &#039;text/html&#039;,
+	&#039;headers&#039; =&gt; [
+		&#039;Content-Type&#039; =&gt; [
+			(int) 0 =&gt; &#039;text/html; charset=UTF-8&#039;
+		]
+	],
+	&#039;file&#039; =&gt; null,
+	&#039;fileRange&#039; =&gt; [],
+	&#039;cookies&#039; =&gt; object(Cake\Http\Cookie\CookieCollection) {
+		[protected] cookies =&gt; [[maximum depth reached]]
+	},
+	&#039;cacheDirectives&#039; =&gt; [],
+	&#039;body&#039; =&gt; &#039;&#039;
+
+}
+object(Cake\Http\Runner) {
+	[protected] index =&gt; (int) 5
+	[protected] middleware =&gt; object(Cake\Http\MiddlewareQueue) {
+		[protected] queue =&gt; [
+			[maximum depth reached]
+		]
+		[protected] callables =&gt; [
+			[maximum depth reached]
+		]
+	}
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-10" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-10">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="49"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">__invoke</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$next</span><span style="color: #007700">)</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="50"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="51"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">service</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">loadPanels</span><span style="color: #007700">();</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="52"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">service</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">initializePanels</span><span style="color: #007700">();</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="53"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$response&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$next</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="54"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$row&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">service</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">saveData</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="55"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(!</span><span style="color: #0000BB">$row</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="56"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="57"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-10" style="display: none;">
+            <pre>object(Cake\Http\ServerRequest) {
+	trustProxy =&gt; false
+	[protected] params =&gt; [
+		&#039;plugin&#039; =&gt; null,
+		&#039;controller&#039; =&gt; null,
+		&#039;action&#039; =&gt; null,
+		&#039;_ext&#039; =&gt; null,
+		&#039;pass&#039; =&gt; []
+	]
+	[protected] data =&gt; []
+	[protected] query =&gt; []
+	[protected] cookies =&gt; []
+	[protected] _environment =&gt; [
+		&#039;SERVER_SIGNATURE&#039; =&gt; &#039;&lt;address&gt;Apache Server at 192.168.1.63 Port 80&lt;/address&gt;
+&#039;,
+		&#039;HTTP_USER_AGENT&#039; =&gt; &#039;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0&#039;,
+		&#039;REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;SERVER_PORT&#039; =&gt; &#039;80&#039;,
+		&#039;HTTP_HOST&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;REDIRECT_HANDLER&#039; =&gt; &#039;php56-fcgi&#039;,
+		&#039;DOCUMENT_ROOT&#039; =&gt; &#039;/var/www/html/projects/&#039;,
+		&#039;SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_URI&#039; =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;,
+		&#039;SCRIPT_NAME&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REDIRECT_REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_CONNECTION&#039; =&gt; &#039;keep-alive&#039;,
+		&#039;REMOTE_PORT&#039; =&gt; &#039;52100&#039;,
+		&#039;PATH&#039; =&gt; &#039;/sbin:/usr/sbin:/bin:/usr/bin&#039;,
+		&#039;PWD&#039; =&gt; &#039;/var/www/cgi-bin&#039;,
+		&#039;SERVER_ADMIN&#039; =&gt; &#039;root@localhost&#039;,
+		&#039;REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_ACCEPT_LANGUAGE&#039; =&gt; &#039;en-US,en;q=0.5&#039;,
+		&#039;HTTP_REFERER&#039; =&gt; &#039;http://192.168.1.63/united_missions/services/api&#039;,
+		&#039;HTTP_ACCEPT&#039; =&gt; &#039;*/*&#039;,
+		&#039;REMOTE_ADDR&#039; =&gt; &#039;192.168.20.10&#039;,
+		&#039;SHLVL&#039; =&gt; &#039;0&#039;,
+		&#039;SERVER_NAME&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;SERVER_SOFTWARE&#039; =&gt; &#039;Apache&#039;,
+		&#039;QUERY_STRING&#039; =&gt; &#039;&#039;,
+		&#039;SERVER_ADDR&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;GATEWAY_INTERFACE&#039; =&gt; &#039;CGI/1.1&#039;,
+		&#039;SERVER_PROTOCOL&#039; =&gt; &#039;HTTP/1.1&#039;,
+		&#039;HTTP_ACCEPT_ENCODING&#039; =&gt; &#039;gzip, deflate&#039;,
+		&#039;REDIRECT_URL&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;ORIG_SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/cgi-bin/php56.fcgi&#039;,
+		&#039;ORIG_PATH_INFO&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_PATH_TRANSLATED&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_SCRIPT_NAME&#039; =&gt; &#039;/cgi-bin/php56.fcgi&#039;,
+		&#039;PHP_SELF&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_TIME_FLOAT&#039; =&gt; (float) 1557820218.9829,
+		&#039;REQUEST_TIME&#039; =&gt; (int) 1557820218,
+		&#039;ORIGINAL_REQUEST_METHOD&#039; =&gt; &#039;GET&#039;
+	]
+	[protected] url =&gt; &#039;services/js/bootstrap.min.js&#039;
+	[protected] base =&gt; &#039;/united_missions&#039;
+	[protected] webroot =&gt; &#039;/united_missions/&#039;
+	[protected] here =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;
+	[protected] _input =&gt; null
+	[protected] _detectors =&gt; [
+		&#039;get&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;GET&#039;
+		],
+		&#039;post&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;POST&#039;
+		],
+		&#039;put&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PUT&#039;
+		],
+		&#039;patch&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PATCH&#039;
+		],
+		&#039;delete&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;DELETE&#039;
+		],
+		&#039;head&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;HEAD&#039;
+		],
+		&#039;options&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;OPTIONS&#039;
+		],
+		&#039;ssl&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTPS&#039;,
+			&#039;options&#039; =&gt; [
+				[maximum depth reached]
+			]
+		],
+		&#039;ajax&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_X_REQUESTED_WITH&#039;,
+			&#039;value&#039; =&gt; &#039;XMLHttpRequest&#039;
+		],
+		&#039;flash&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_USER_AGENT&#039;,
+			&#039;pattern&#039; =&gt; &#039;/^(Shockwave|Adobe) Flash/&#039;
+		],
+		&#039;requested&#039; =&gt; [
+			&#039;param&#039; =&gt; &#039;requested&#039;,
+			&#039;value&#039; =&gt; (int) 1
+		],
+		&#039;json&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;json&#039;
+		],
+		&#039;xml&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;xml&#039;
+		],
+		&#039;mobile&#039; =&gt; object(Closure) {},
+		&#039;tablet&#039; =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; []
+	[protected] stream =&gt; object(Zend\Diactoros\PhpInputStream) {
+		[protected] resource =&gt; resource
+		[protected] stream =&gt; &#039;php://input&#039;
+		[private] cache =&gt; &#039;&#039;
+		[private] reachedEof =&gt; false
+	}
+	[protected] uri =&gt; object(Zend\Diactoros\Uri) {
+		base =&gt; &#039;/united_missions&#039;
+		webroot =&gt; &#039;/united_missions/&#039;
+		[protected] allowedSchemes =&gt; [
+			[maximum depth reached]
+		]
+		[private] scheme =&gt; &#039;http&#039;
+		[private] userInfo =&gt; &#039;&#039;
+		[private] host =&gt; &#039;192.168.1.63&#039;
+		[private] port =&gt; null
+		[private] path =&gt; &#039;/services/js/bootstrap.min.js&#039;
+		[private] query =&gt; &#039;&#039;
+		[private] fragment =&gt; &#039;&#039;
+		[private] uriString =&gt; null
+	}
+	[protected] session =&gt; object(Cake\Http\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; (int) 1440
+		[protected] _isCLI =&gt; false
+	}
+	[protected] attributes =&gt; []
+	[protected] emulatedAttributes =&gt; [
+		(int) 0 =&gt; &#039;session&#039;,
+		(int) 1 =&gt; &#039;webroot&#039;,
+		(int) 2 =&gt; &#039;base&#039;,
+		(int) 3 =&gt; &#039;params&#039;,
+		(int) 4 =&gt; &#039;here&#039;
+	]
+	[protected] uploadedFiles =&gt; []
+	[protected] protocol =&gt; null
+	[protected] requestTarget =&gt; null
+	[private] deprecatedProperties =&gt; [
+		&#039;data&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getData()&#039;,
+			&#039;set&#039; =&gt; &#039;withData()&#039;
+		],
+		&#039;query&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getQuery()&#039;,
+			&#039;set&#039; =&gt; &#039;withQueryParams()&#039;
+		],
+		&#039;params&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getParam()&#039;,
+			&#039;set&#039; =&gt; &#039;withParam()&#039;
+		],
+		&#039;cookies&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getCookie()&#039;,
+			&#039;set&#039; =&gt; &#039;withCookieParams()&#039;
+		],
+		&#039;url&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getPath()&#039;,
+			&#039;set&#039; =&gt; &#039;withRequestTarget()&#039;
+		],
+		&#039;base&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;base&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;base&quot;)&#039;
+		],
+		&#039;webroot&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;webroot&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;webroot&quot;)&#039;
+		],
+		&#039;here&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;here&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;here&quot;)&#039;
+		]
+	]
+}
+object(Cake\Http\Response) {
+
+	&#039;status&#039; =&gt; (int) 200,
+	&#039;contentType&#039; =&gt; &#039;text/html&#039;,
+	&#039;headers&#039; =&gt; [
+		&#039;Content-Type&#039; =&gt; [
+			(int) 0 =&gt; &#039;text/html; charset=UTF-8&#039;
+		]
+	],
+	&#039;file&#039; =&gt; null,
+	&#039;fileRange&#039; =&gt; [],
+	&#039;cookies&#039; =&gt; object(Cake\Http\Cookie\CookieCollection) {
+		[protected] cookies =&gt; [[maximum depth reached]]
+	},
+	&#039;cacheDirectives&#039; =&gt; [],
+	&#039;body&#039; =&gt; &#039;&#039;
+
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-11" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/cakephp/src/Http/Runner.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-11">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="61"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$next&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">middleware</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">get</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">index</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="62"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$next</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="63"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">index</span><span style="color: #007700">++;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="64"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="65"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$next</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="66"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="67"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="68"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;End&nbsp;of&nbsp;the&nbsp;queue</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="69"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-11" style="display: none;">
+            <pre>object(Cake\Http\ServerRequest) {
+	trustProxy =&gt; false
+	[protected] params =&gt; [
+		&#039;plugin&#039; =&gt; null,
+		&#039;controller&#039; =&gt; null,
+		&#039;action&#039; =&gt; null,
+		&#039;_ext&#039; =&gt; null,
+		&#039;pass&#039; =&gt; []
+	]
+	[protected] data =&gt; []
+	[protected] query =&gt; []
+	[protected] cookies =&gt; []
+	[protected] _environment =&gt; [
+		&#039;SERVER_SIGNATURE&#039; =&gt; &#039;&lt;address&gt;Apache Server at 192.168.1.63 Port 80&lt;/address&gt;
+&#039;,
+		&#039;HTTP_USER_AGENT&#039; =&gt; &#039;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0&#039;,
+		&#039;REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;SERVER_PORT&#039; =&gt; &#039;80&#039;,
+		&#039;HTTP_HOST&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;REDIRECT_HANDLER&#039; =&gt; &#039;php56-fcgi&#039;,
+		&#039;DOCUMENT_ROOT&#039; =&gt; &#039;/var/www/html/projects/&#039;,
+		&#039;SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_URI&#039; =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;,
+		&#039;SCRIPT_NAME&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REDIRECT_REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_CONNECTION&#039; =&gt; &#039;keep-alive&#039;,
+		&#039;REMOTE_PORT&#039; =&gt; &#039;52100&#039;,
+		&#039;PATH&#039; =&gt; &#039;/sbin:/usr/sbin:/bin:/usr/bin&#039;,
+		&#039;PWD&#039; =&gt; &#039;/var/www/cgi-bin&#039;,
+		&#039;SERVER_ADMIN&#039; =&gt; &#039;root@localhost&#039;,
+		&#039;REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_ACCEPT_LANGUAGE&#039; =&gt; &#039;en-US,en;q=0.5&#039;,
+		&#039;HTTP_REFERER&#039; =&gt; &#039;http://192.168.1.63/united_missions/services/api&#039;,
+		&#039;HTTP_ACCEPT&#039; =&gt; &#039;*/*&#039;,
+		&#039;REMOTE_ADDR&#039; =&gt; &#039;192.168.20.10&#039;,
+		&#039;SHLVL&#039; =&gt; &#039;0&#039;,
+		&#039;SERVER_NAME&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;SERVER_SOFTWARE&#039; =&gt; &#039;Apache&#039;,
+		&#039;QUERY_STRING&#039; =&gt; &#039;&#039;,
+		&#039;SERVER_ADDR&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;GATEWAY_INTERFACE&#039; =&gt; &#039;CGI/1.1&#039;,
+		&#039;SERVER_PROTOCOL&#039; =&gt; &#039;HTTP/1.1&#039;,
+		&#039;HTTP_ACCEPT_ENCODING&#039; =&gt; &#039;gzip, deflate&#039;,
+		&#039;REDIRECT_URL&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;ORIG_SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/cgi-bin/php56.fcgi&#039;,
+		&#039;ORIG_PATH_INFO&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_PATH_TRANSLATED&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_SCRIPT_NAME&#039; =&gt; &#039;/cgi-bin/php56.fcgi&#039;,
+		&#039;PHP_SELF&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_TIME_FLOAT&#039; =&gt; (float) 1557820218.9829,
+		&#039;REQUEST_TIME&#039; =&gt; (int) 1557820218,
+		&#039;ORIGINAL_REQUEST_METHOD&#039; =&gt; &#039;GET&#039;
+	]
+	[protected] url =&gt; &#039;services/js/bootstrap.min.js&#039;
+	[protected] base =&gt; &#039;/united_missions&#039;
+	[protected] webroot =&gt; &#039;/united_missions/&#039;
+	[protected] here =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;
+	[protected] _input =&gt; null
+	[protected] _detectors =&gt; [
+		&#039;get&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;GET&#039;
+		],
+		&#039;post&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;POST&#039;
+		],
+		&#039;put&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PUT&#039;
+		],
+		&#039;patch&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PATCH&#039;
+		],
+		&#039;delete&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;DELETE&#039;
+		],
+		&#039;head&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;HEAD&#039;
+		],
+		&#039;options&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;OPTIONS&#039;
+		],
+		&#039;ssl&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTPS&#039;,
+			&#039;options&#039; =&gt; [
+				[maximum depth reached]
+			]
+		],
+		&#039;ajax&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_X_REQUESTED_WITH&#039;,
+			&#039;value&#039; =&gt; &#039;XMLHttpRequest&#039;
+		],
+		&#039;flash&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_USER_AGENT&#039;,
+			&#039;pattern&#039; =&gt; &#039;/^(Shockwave|Adobe) Flash/&#039;
+		],
+		&#039;requested&#039; =&gt; [
+			&#039;param&#039; =&gt; &#039;requested&#039;,
+			&#039;value&#039; =&gt; (int) 1
+		],
+		&#039;json&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;json&#039;
+		],
+		&#039;xml&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;xml&#039;
+		],
+		&#039;mobile&#039; =&gt; object(Closure) {},
+		&#039;tablet&#039; =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; []
+	[protected] stream =&gt; object(Zend\Diactoros\PhpInputStream) {
+		[protected] resource =&gt; resource
+		[protected] stream =&gt; &#039;php://input&#039;
+		[private] cache =&gt; &#039;&#039;
+		[private] reachedEof =&gt; false
+	}
+	[protected] uri =&gt; object(Zend\Diactoros\Uri) {
+		base =&gt; &#039;/united_missions&#039;
+		webroot =&gt; &#039;/united_missions/&#039;
+		[protected] allowedSchemes =&gt; [
+			[maximum depth reached]
+		]
+		[private] scheme =&gt; &#039;http&#039;
+		[private] userInfo =&gt; &#039;&#039;
+		[private] host =&gt; &#039;192.168.1.63&#039;
+		[private] port =&gt; null
+		[private] path =&gt; &#039;/services/js/bootstrap.min.js&#039;
+		[private] query =&gt; &#039;&#039;
+		[private] fragment =&gt; &#039;&#039;
+		[private] uriString =&gt; null
+	}
+	[protected] session =&gt; object(Cake\Http\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; (int) 1440
+		[protected] _isCLI =&gt; false
+	}
+	[protected] attributes =&gt; []
+	[protected] emulatedAttributes =&gt; [
+		(int) 0 =&gt; &#039;session&#039;,
+		(int) 1 =&gt; &#039;webroot&#039;,
+		(int) 2 =&gt; &#039;base&#039;,
+		(int) 3 =&gt; &#039;params&#039;,
+		(int) 4 =&gt; &#039;here&#039;
+	]
+	[protected] uploadedFiles =&gt; []
+	[protected] protocol =&gt; null
+	[protected] requestTarget =&gt; null
+	[private] deprecatedProperties =&gt; [
+		&#039;data&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getData()&#039;,
+			&#039;set&#039; =&gt; &#039;withData()&#039;
+		],
+		&#039;query&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getQuery()&#039;,
+			&#039;set&#039; =&gt; &#039;withQueryParams()&#039;
+		],
+		&#039;params&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getParam()&#039;,
+			&#039;set&#039; =&gt; &#039;withParam()&#039;
+		],
+		&#039;cookies&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getCookie()&#039;,
+			&#039;set&#039; =&gt; &#039;withCookieParams()&#039;
+		],
+		&#039;url&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getPath()&#039;,
+			&#039;set&#039; =&gt; &#039;withRequestTarget()&#039;
+		],
+		&#039;base&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;base&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;base&quot;)&#039;
+		],
+		&#039;webroot&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;webroot&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;webroot&quot;)&#039;
+		],
+		&#039;here&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;here&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;here&quot;)&#039;
+		]
+	]
+}
+object(Cake\Http\Response) {
+
+	&#039;status&#039; =&gt; (int) 200,
+	&#039;contentType&#039; =&gt; &#039;text/html&#039;,
+	&#039;headers&#039; =&gt; [
+		&#039;Content-Type&#039; =&gt; [
+			(int) 0 =&gt; &#039;text/html; charset=UTF-8&#039;
+		]
+	],
+	&#039;file&#039; =&gt; null,
+	&#039;fileRange&#039; =&gt; [],
+	&#039;cookies&#039; =&gt; object(Cake\Http\Cookie\CookieCollection) {
+		[protected] cookies =&gt; [[maximum depth reached]]
+	},
+	&#039;cacheDirectives&#039; =&gt; [],
+	&#039;body&#039; =&gt; &#039;&#039;
+
+}
+object(Cake\Http\Runner) {
+	[protected] index =&gt; (int) 5
+	[protected] middleware =&gt; object(Cake\Http\MiddlewareQueue) {
+		[protected] queue =&gt; [
+			[maximum depth reached]
+		]
+		[protected] callables =&gt; [
+			[maximum depth reached]
+		]
+	}
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-12" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/cakephp/src/Http/Runner.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-12">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="47"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="48"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">middleware&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$middleware</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="49"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">index&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="50"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="51"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">__invoke</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="52"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="53"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="54"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/**</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="55"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*&nbsp;@</span><span style="color: #0000BB">param&nbsp;</span><span style="color: #007700">\</span><span style="color: #0000BB">Psr</span><span style="color: #007700">\</span><span style="color: #0000BB">Http</span><span style="color: #007700">\</span><span style="color: #0000BB">Message</span><span style="color: #007700">\</span><span style="color: #0000BB">ServerRequestInterface&nbsp;$request&nbsp;The&nbsp;server&nbsp;request</span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-12" style="display: none;">
+            <pre>object(Cake\Http\ServerRequest) {
+	trustProxy =&gt; false
+	[protected] params =&gt; [
+		&#039;plugin&#039; =&gt; null,
+		&#039;controller&#039; =&gt; null,
+		&#039;action&#039; =&gt; null,
+		&#039;_ext&#039; =&gt; null,
+		&#039;pass&#039; =&gt; []
+	]
+	[protected] data =&gt; []
+	[protected] query =&gt; []
+	[protected] cookies =&gt; []
+	[protected] _environment =&gt; [
+		&#039;SERVER_SIGNATURE&#039; =&gt; &#039;&lt;address&gt;Apache Server at 192.168.1.63 Port 80&lt;/address&gt;
+&#039;,
+		&#039;HTTP_USER_AGENT&#039; =&gt; &#039;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0&#039;,
+		&#039;REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;SERVER_PORT&#039; =&gt; &#039;80&#039;,
+		&#039;HTTP_HOST&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;REDIRECT_HANDLER&#039; =&gt; &#039;php56-fcgi&#039;,
+		&#039;DOCUMENT_ROOT&#039; =&gt; &#039;/var/www/html/projects/&#039;,
+		&#039;SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_URI&#039; =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;,
+		&#039;SCRIPT_NAME&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REDIRECT_REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_CONNECTION&#039; =&gt; &#039;keep-alive&#039;,
+		&#039;REMOTE_PORT&#039; =&gt; &#039;52100&#039;,
+		&#039;PATH&#039; =&gt; &#039;/sbin:/usr/sbin:/bin:/usr/bin&#039;,
+		&#039;PWD&#039; =&gt; &#039;/var/www/cgi-bin&#039;,
+		&#039;SERVER_ADMIN&#039; =&gt; &#039;root@localhost&#039;,
+		&#039;REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_ACCEPT_LANGUAGE&#039; =&gt; &#039;en-US,en;q=0.5&#039;,
+		&#039;HTTP_REFERER&#039; =&gt; &#039;http://192.168.1.63/united_missions/services/api&#039;,
+		&#039;HTTP_ACCEPT&#039; =&gt; &#039;*/*&#039;,
+		&#039;REMOTE_ADDR&#039; =&gt; &#039;192.168.20.10&#039;,
+		&#039;SHLVL&#039; =&gt; &#039;0&#039;,
+		&#039;SERVER_NAME&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;SERVER_SOFTWARE&#039; =&gt; &#039;Apache&#039;,
+		&#039;QUERY_STRING&#039; =&gt; &#039;&#039;,
+		&#039;SERVER_ADDR&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;GATEWAY_INTERFACE&#039; =&gt; &#039;CGI/1.1&#039;,
+		&#039;SERVER_PROTOCOL&#039; =&gt; &#039;HTTP/1.1&#039;,
+		&#039;HTTP_ACCEPT_ENCODING&#039; =&gt; &#039;gzip, deflate&#039;,
+		&#039;REDIRECT_URL&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;ORIG_SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/cgi-bin/php56.fcgi&#039;,
+		&#039;ORIG_PATH_INFO&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_PATH_TRANSLATED&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_SCRIPT_NAME&#039; =&gt; &#039;/cgi-bin/php56.fcgi&#039;,
+		&#039;PHP_SELF&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_TIME_FLOAT&#039; =&gt; (float) 1557820218.9829,
+		&#039;REQUEST_TIME&#039; =&gt; (int) 1557820218,
+		&#039;ORIGINAL_REQUEST_METHOD&#039; =&gt; &#039;GET&#039;
+	]
+	[protected] url =&gt; &#039;services/js/bootstrap.min.js&#039;
+	[protected] base =&gt; &#039;/united_missions&#039;
+	[protected] webroot =&gt; &#039;/united_missions/&#039;
+	[protected] here =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;
+	[protected] _input =&gt; null
+	[protected] _detectors =&gt; [
+		&#039;get&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;GET&#039;
+		],
+		&#039;post&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;POST&#039;
+		],
+		&#039;put&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PUT&#039;
+		],
+		&#039;patch&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PATCH&#039;
+		],
+		&#039;delete&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;DELETE&#039;
+		],
+		&#039;head&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;HEAD&#039;
+		],
+		&#039;options&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;OPTIONS&#039;
+		],
+		&#039;ssl&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTPS&#039;,
+			&#039;options&#039; =&gt; [
+				[maximum depth reached]
+			]
+		],
+		&#039;ajax&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_X_REQUESTED_WITH&#039;,
+			&#039;value&#039; =&gt; &#039;XMLHttpRequest&#039;
+		],
+		&#039;flash&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_USER_AGENT&#039;,
+			&#039;pattern&#039; =&gt; &#039;/^(Shockwave|Adobe) Flash/&#039;
+		],
+		&#039;requested&#039; =&gt; [
+			&#039;param&#039; =&gt; &#039;requested&#039;,
+			&#039;value&#039; =&gt; (int) 1
+		],
+		&#039;json&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;json&#039;
+		],
+		&#039;xml&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;xml&#039;
+		],
+		&#039;mobile&#039; =&gt; object(Closure) {},
+		&#039;tablet&#039; =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; []
+	[protected] stream =&gt; object(Zend\Diactoros\PhpInputStream) {
+		[protected] resource =&gt; resource
+		[protected] stream =&gt; &#039;php://input&#039;
+		[private] cache =&gt; &#039;&#039;
+		[private] reachedEof =&gt; false
+	}
+	[protected] uri =&gt; object(Zend\Diactoros\Uri) {
+		base =&gt; &#039;/united_missions&#039;
+		webroot =&gt; &#039;/united_missions/&#039;
+		[protected] allowedSchemes =&gt; [
+			[maximum depth reached]
+		]
+		[private] scheme =&gt; &#039;http&#039;
+		[private] userInfo =&gt; &#039;&#039;
+		[private] host =&gt; &#039;192.168.1.63&#039;
+		[private] port =&gt; null
+		[private] path =&gt; &#039;/services/js/bootstrap.min.js&#039;
+		[private] query =&gt; &#039;&#039;
+		[private] fragment =&gt; &#039;&#039;
+		[private] uriString =&gt; null
+	}
+	[protected] session =&gt; object(Cake\Http\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; (int) 1440
+		[protected] _isCLI =&gt; false
+	}
+	[protected] attributes =&gt; []
+	[protected] emulatedAttributes =&gt; [
+		(int) 0 =&gt; &#039;session&#039;,
+		(int) 1 =&gt; &#039;webroot&#039;,
+		(int) 2 =&gt; &#039;base&#039;,
+		(int) 3 =&gt; &#039;params&#039;,
+		(int) 4 =&gt; &#039;here&#039;
+	]
+	[protected] uploadedFiles =&gt; []
+	[protected] protocol =&gt; null
+	[protected] requestTarget =&gt; null
+	[private] deprecatedProperties =&gt; [
+		&#039;data&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getData()&#039;,
+			&#039;set&#039; =&gt; &#039;withData()&#039;
+		],
+		&#039;query&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getQuery()&#039;,
+			&#039;set&#039; =&gt; &#039;withQueryParams()&#039;
+		],
+		&#039;params&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getParam()&#039;,
+			&#039;set&#039; =&gt; &#039;withParam()&#039;
+		],
+		&#039;cookies&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getCookie()&#039;,
+			&#039;set&#039; =&gt; &#039;withCookieParams()&#039;
+		],
+		&#039;url&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getPath()&#039;,
+			&#039;set&#039; =&gt; &#039;withRequestTarget()&#039;
+		],
+		&#039;base&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;base&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;base&quot;)&#039;
+		],
+		&#039;webroot&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;webroot&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;webroot&quot;)&#039;
+		],
+		&#039;here&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;here&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;here&quot;)&#039;
+		]
+	]
+}
+object(Cake\Http\Response) {
+
+	&#039;status&#039; =&gt; (int) 200,
+	&#039;contentType&#039; =&gt; &#039;text/html&#039;,
+	&#039;headers&#039; =&gt; [
+		&#039;Content-Type&#039; =&gt; [
+			(int) 0 =&gt; &#039;text/html; charset=UTF-8&#039;
+		]
+	],
+	&#039;file&#039; =&gt; null,
+	&#039;fileRange&#039; =&gt; [],
+	&#039;cookies&#039; =&gt; object(Cake\Http\Cookie\CookieCollection) {
+		[protected] cookies =&gt; [[maximum depth reached]]
+	},
+	&#039;cacheDirectives&#039; =&gt; [],
+	&#039;body&#039; =&gt; &#039;&#039;
+
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-13" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/vendor/cakephp/cakephp/src/Http/Server.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-13">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="94"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="95"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">dispatchEvent</span><span style="color: #007700">(</span><span style="color: #DD0000">'Server.buildMiddleware'</span><span style="color: #007700">,&nbsp;[</span><span style="color: #DD0000">'middleware'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$middleware</span><span style="color: #007700">]);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="96"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$middleware</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">add</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">app</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="97"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="98"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$response&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">runner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">run</span><span style="color: #007700">(</span><span style="color: #0000BB">$middleware</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="99"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="100"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(!(</span><span style="color: #0000BB">$response&nbsp;</span><span style="color: #007700">instanceof&nbsp;</span><span style="color: #0000BB">ResponseInterface</span><span style="color: #007700">))&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="101"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">throw&nbsp;new&nbsp;</span><span style="color: #0000BB">RuntimeException</span><span style="color: #007700">(</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="102"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'Application&nbsp;did&nbsp;not&nbsp;create&nbsp;a&nbsp;response.&nbsp;Got&nbsp;"%s"&nbsp;instead.'</span><span style="color: #007700">,</span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-13" style="display: none;">
+            <pre>object(Cake\Http\MiddlewareQueue) {
+	[protected] queue =&gt; [
+		(int) 0 =&gt; object(DebugKit\Middleware\DebugKitMiddleware) {},
+		(int) 1 =&gt; &#039;Cake\Error\Middleware\ErrorHandlerMiddleware&#039;,
+		(int) 2 =&gt; object(Cake\Routing\Middleware\AssetMiddleware) {},
+		(int) 3 =&gt; object(Cake\Routing\Middleware\RoutingMiddleware) {},
+		(int) 4 =&gt; object(App\Application) {}
+	]
+	[protected] callables =&gt; [
+		(int) 0 =&gt; object(DebugKit\Middleware\DebugKitMiddleware) {},
+		(int) 1 =&gt; object(Cake\Error\Middleware\ErrorHandlerMiddleware) {},
+		(int) 2 =&gt; object(Cake\Routing\Middleware\AssetMiddleware) {},
+		(int) 3 =&gt; object(Cake\Routing\Middleware\RoutingMiddleware) {},
+		(int) 4 =&gt; object(App\Application) {}
+	]
+}
+object(Cake\Http\ServerRequest) {
+	trustProxy =&gt; false
+	[protected] params =&gt; [
+		&#039;plugin&#039; =&gt; null,
+		&#039;controller&#039; =&gt; null,
+		&#039;action&#039; =&gt; null,
+		&#039;_ext&#039; =&gt; null,
+		&#039;pass&#039; =&gt; []
+	]
+	[protected] data =&gt; []
+	[protected] query =&gt; []
+	[protected] cookies =&gt; []
+	[protected] _environment =&gt; [
+		&#039;SERVER_SIGNATURE&#039; =&gt; &#039;&lt;address&gt;Apache Server at 192.168.1.63 Port 80&lt;/address&gt;
+&#039;,
+		&#039;HTTP_USER_AGENT&#039; =&gt; &#039;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0&#039;,
+		&#039;REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;SERVER_PORT&#039; =&gt; &#039;80&#039;,
+		&#039;HTTP_HOST&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;REDIRECT_HANDLER&#039; =&gt; &#039;php56-fcgi&#039;,
+		&#039;DOCUMENT_ROOT&#039; =&gt; &#039;/var/www/html/projects/&#039;,
+		&#039;SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_URI&#039; =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;,
+		&#039;SCRIPT_NAME&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REDIRECT_REDIRECT_REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_CONNECTION&#039; =&gt; &#039;keep-alive&#039;,
+		&#039;REMOTE_PORT&#039; =&gt; &#039;52100&#039;,
+		&#039;PATH&#039; =&gt; &#039;/sbin:/usr/sbin:/bin:/usr/bin&#039;,
+		&#039;PWD&#039; =&gt; &#039;/var/www/cgi-bin&#039;,
+		&#039;SERVER_ADMIN&#039; =&gt; &#039;root@localhost&#039;,
+		&#039;REDIRECT_STATUS&#039; =&gt; &#039;200&#039;,
+		&#039;HTTP_ACCEPT_LANGUAGE&#039; =&gt; &#039;en-US,en;q=0.5&#039;,
+		&#039;HTTP_REFERER&#039; =&gt; &#039;http://192.168.1.63/united_missions/services/api&#039;,
+		&#039;HTTP_ACCEPT&#039; =&gt; &#039;*/*&#039;,
+		&#039;REMOTE_ADDR&#039; =&gt; &#039;192.168.20.10&#039;,
+		&#039;SHLVL&#039; =&gt; &#039;0&#039;,
+		&#039;SERVER_NAME&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;SERVER_SOFTWARE&#039; =&gt; &#039;Apache&#039;,
+		&#039;QUERY_STRING&#039; =&gt; &#039;&#039;,
+		&#039;SERVER_ADDR&#039; =&gt; &#039;192.168.1.63&#039;,
+		&#039;GATEWAY_INTERFACE&#039; =&gt; &#039;CGI/1.1&#039;,
+		&#039;SERVER_PROTOCOL&#039; =&gt; &#039;HTTP/1.1&#039;,
+		&#039;HTTP_ACCEPT_ENCODING&#039; =&gt; &#039;gzip, deflate&#039;,
+		&#039;REDIRECT_URL&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_METHOD&#039; =&gt; &#039;GET&#039;,
+		&#039;ORIG_SCRIPT_FILENAME&#039; =&gt; &#039;/var/www/cgi-bin/php56.fcgi&#039;,
+		&#039;ORIG_PATH_INFO&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_PATH_TRANSLATED&#039; =&gt; &#039;/var/www/html/projects/united_missions/webroot/index.php&#039;,
+		&#039;ORIG_SCRIPT_NAME&#039; =&gt; &#039;/cgi-bin/php56.fcgi&#039;,
+		&#039;PHP_SELF&#039; =&gt; &#039;/united_missions/webroot/index.php&#039;,
+		&#039;REQUEST_TIME_FLOAT&#039; =&gt; (float) 1557820218.9829,
+		&#039;REQUEST_TIME&#039; =&gt; (int) 1557820218,
+		&#039;ORIGINAL_REQUEST_METHOD&#039; =&gt; &#039;GET&#039;
+	]
+	[protected] url =&gt; &#039;services/js/bootstrap.min.js&#039;
+	[protected] base =&gt; &#039;/united_missions&#039;
+	[protected] webroot =&gt; &#039;/united_missions/&#039;
+	[protected] here =&gt; &#039;/united_missions/services/js/bootstrap.min.js&#039;
+	[protected] _input =&gt; null
+	[protected] _detectors =&gt; [
+		&#039;get&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;GET&#039;
+		],
+		&#039;post&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;POST&#039;
+		],
+		&#039;put&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PUT&#039;
+		],
+		&#039;patch&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;PATCH&#039;
+		],
+		&#039;delete&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;DELETE&#039;
+		],
+		&#039;head&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;HEAD&#039;
+		],
+		&#039;options&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;REQUEST_METHOD&#039;,
+			&#039;value&#039; =&gt; &#039;OPTIONS&#039;
+		],
+		&#039;ssl&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTPS&#039;,
+			&#039;options&#039; =&gt; [
+				[maximum depth reached]
+			]
+		],
+		&#039;ajax&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_X_REQUESTED_WITH&#039;,
+			&#039;value&#039; =&gt; &#039;XMLHttpRequest&#039;
+		],
+		&#039;flash&#039; =&gt; [
+			&#039;env&#039; =&gt; &#039;HTTP_USER_AGENT&#039;,
+			&#039;pattern&#039; =&gt; &#039;/^(Shockwave|Adobe) Flash/&#039;
+		],
+		&#039;requested&#039; =&gt; [
+			&#039;param&#039; =&gt; &#039;requested&#039;,
+			&#039;value&#039; =&gt; (int) 1
+		],
+		&#039;json&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;json&#039;
+		],
+		&#039;xml&#039; =&gt; [
+			&#039;accept&#039; =&gt; [
+				[maximum depth reached]
+			],
+			&#039;param&#039; =&gt; &#039;_ext&#039;,
+			&#039;value&#039; =&gt; &#039;xml&#039;
+		],
+		&#039;mobile&#039; =&gt; object(Closure) {},
+		&#039;tablet&#039; =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; []
+	[protected] stream =&gt; object(Zend\Diactoros\PhpInputStream) {
+		[protected] resource =&gt; resource
+		[protected] stream =&gt; &#039;php://input&#039;
+		[private] cache =&gt; &#039;&#039;
+		[private] reachedEof =&gt; false
+	}
+	[protected] uri =&gt; object(Zend\Diactoros\Uri) {
+		base =&gt; &#039;/united_missions&#039;
+		webroot =&gt; &#039;/united_missions/&#039;
+		[protected] allowedSchemes =&gt; [
+			[maximum depth reached]
+		]
+		[private] scheme =&gt; &#039;http&#039;
+		[private] userInfo =&gt; &#039;&#039;
+		[private] host =&gt; &#039;192.168.1.63&#039;
+		[private] port =&gt; null
+		[private] path =&gt; &#039;/services/js/bootstrap.min.js&#039;
+		[private] query =&gt; &#039;&#039;
+		[private] fragment =&gt; &#039;&#039;
+		[private] uriString =&gt; null
+	}
+	[protected] session =&gt; object(Cake\Http\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; (int) 1440
+		[protected] _isCLI =&gt; false
+	}
+	[protected] attributes =&gt; []
+	[protected] emulatedAttributes =&gt; [
+		(int) 0 =&gt; &#039;session&#039;,
+		(int) 1 =&gt; &#039;webroot&#039;,
+		(int) 2 =&gt; &#039;base&#039;,
+		(int) 3 =&gt; &#039;params&#039;,
+		(int) 4 =&gt; &#039;here&#039;
+	]
+	[protected] uploadedFiles =&gt; []
+	[protected] protocol =&gt; null
+	[protected] requestTarget =&gt; null
+	[private] deprecatedProperties =&gt; [
+		&#039;data&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getData()&#039;,
+			&#039;set&#039; =&gt; &#039;withData()&#039;
+		],
+		&#039;query&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getQuery()&#039;,
+			&#039;set&#039; =&gt; &#039;withQueryParams()&#039;
+		],
+		&#039;params&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getParam()&#039;,
+			&#039;set&#039; =&gt; &#039;withParam()&#039;
+		],
+		&#039;cookies&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getCookie()&#039;,
+			&#039;set&#039; =&gt; &#039;withCookieParams()&#039;
+		],
+		&#039;url&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getPath()&#039;,
+			&#039;set&#039; =&gt; &#039;withRequestTarget()&#039;
+		],
+		&#039;base&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;base&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;base&quot;)&#039;
+		],
+		&#039;webroot&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;webroot&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;webroot&quot;)&#039;
+		],
+		&#039;here&#039; =&gt; [
+			&#039;get&#039; =&gt; &#039;getAttribute(&quot;here&quot;)&#039;,
+			&#039;set&#039; =&gt; &#039;withAttribute(&quot;here&quot;)&#039;
+		]
+	]
+}
+object(Cake\Http\Response) {
+
+	&#039;status&#039; =&gt; (int) 200,
+	&#039;contentType&#039; =&gt; &#039;text/html&#039;,
+	&#039;headers&#039; =&gt; [
+		&#039;Content-Type&#039; =&gt; [
+			(int) 0 =&gt; &#039;text/html; charset=UTF-8&#039;
+		]
+	],
+	&#039;file&#039; =&gt; null,
+	&#039;fileRange&#039; =&gt; [],
+	&#039;cookies&#039; =&gt; object(Cake\Http\Cookie\CookieCollection) {
+		[protected] cookies =&gt; [[maximum depth reached]]
+	},
+	&#039;cacheDirectives&#039; =&gt; [],
+	&#039;body&#039; =&gt; &#039;&#039;
+
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-14" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/var/www/html/projects/united_missions/webroot/index.php</span>
+        <a href="#" class="toggle-link stack-frame-args" data-target="stack-args-14">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tr>
+                <td class="excerpt-number" data-number="36"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span><span style="color: #FF8000">//&nbsp;Bind&nbsp;your&nbsp;application&nbsp;to&nbsp;the&nbsp;server.</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="37"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">$server&nbsp;</span><span style="color: #007700">=&nbsp;new&nbsp;</span><span style="color: #0000BB">Server</span><span style="color: #007700">(new&nbsp;</span><span style="color: #0000BB">Application</span><span style="color: #007700">(</span><span style="color: #0000BB">dirname</span><span style="color: #007700">(</span><span style="color: #0000BB">__DIR__</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">'/config'</span><span style="color: #007700">));</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="38"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="39"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span><span style="color: #FF8000">//&nbsp;Run&nbsp;the&nbsp;request/response&nbsp;through&nbsp;the&nbsp;application&nbsp;and&nbsp;emit&nbsp;the&nbsp;response.</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="40"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">$server</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">emit</span><span style="color: #007700">(</span><span style="color: #0000BB">$server</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">run</span><span style="color: #007700">());</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="41"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </table>
+
+        <div id="stack-args-14" style="display: none;">
+            <pre>No arguments</pre>
+        </div>
+    </div>
+
+        <div class="error-suggestion">
+            <p class="error">
+    <strong>Error: </strong>
+    Create <em>ServicesController::js()</em> in file: src/Controller/ServicesController.php.</p>
+
+
+<div class="code-dump"><code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">namespace&nbsp;</span><span style="color: #0000BB">App</span><span style="color: #007700">\</span><span style="color: #0000BB">Controller</span><span style="color: #007700">;<br /><br />use&nbsp;</span><span style="color: #0000BB">App</span><span style="color: #007700">\</span><span style="color: #0000BB">Controller</span><span style="color: #007700">\</span><span style="color: #0000BB">AppController</span><span style="color: #007700">;<br /><br />class&nbsp;</span><span style="color: #0000BB">ServicesController&nbsp;</span><span style="color: #007700">extends&nbsp;</span><span style="color: #0000BB">AppController<br /></span><span style="color: #007700">{<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;function&nbsp;</span><span style="color: #0000BB">js</span><span style="color: #007700">()<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />}</span>
+</span>
+</code></div>
+        </div>
+
+                <p class="customize">
+            If you want to customize this error message, create
+            <em>src/Template/Error/missing_action.ctp</em>
+        </p>
+            </div>
+
+    <div class="error-nav">
+        <a href="#" class="toggle-link toggle-vendor-frames">toggle vendor stack frames</a>
+
+<ul class="stack-trace">
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-0">
+                            <span class="stack-function">&rang; Cake\Controller\Controller-&gt;invokeAction</span>
+                        <span class="stack-file">
+                            CORE/src/Http/ActionDispatcher.php, line 120                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-1">
+                            <span class="stack-function">&rang; Cake\Http\ActionDispatcher-&gt;_invoke</span>
+                        <span class="stack-file">
+                            CORE/src/Http/ActionDispatcher.php, line 94                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-2">
+                            <span class="stack-function">&rang; Cake\Http\ActionDispatcher-&gt;dispatch</span>
+                        <span class="stack-file">
+                            CORE/src/Http/BaseApplication.php, line 235                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-3">
+                            <span class="stack-function">&rang; Cake\Http\BaseApplication-&gt;__invoke</span>
+                        <span class="stack-file">
+                            CORE/src/Http/Runner.php, line 65                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-4">
+                            <span class="stack-function">&rang; Cake\Http\Runner-&gt;__invoke</span>
+                        <span class="stack-file">
+                            CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-5">
+                            <span class="stack-function">&rang; Cake\Routing\Middleware\RoutingMiddleware-&gt;__invoke</span>
+                        <span class="stack-file">
+                            CORE/src/Http/Runner.php, line 65                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-6">
+                            <span class="stack-function">&rang; Cake\Http\Runner-&gt;__invoke</span>
+                        <span class="stack-file">
+                            CORE/src/Routing/Middleware/AssetMiddleware.php, line 97                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-7">
+                            <span class="stack-function">&rang; Cake\Routing\Middleware\AssetMiddleware-&gt;__invoke</span>
+                        <span class="stack-file">
+                            CORE/src/Http/Runner.php, line 65                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-8">
+                            <span class="stack-function">&rang; Cake\Http\Runner-&gt;__invoke</span>
+                        <span class="stack-file">
+                            CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-9">
+                            <span class="stack-function">&rang; Cake\Error\Middleware\ErrorHandlerMiddleware-&gt;__invoke</span>
+                        <span class="stack-file">
+                            CORE/src/Http/Runner.php, line 65                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-10">
+                            <span class="stack-function">&rang; Cake\Http\Runner-&gt;__invoke</span>
+                        <span class="stack-file">
+                            ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 53                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-11">
+                            <span class="stack-function">&rang; DebugKit\Middleware\DebugKitMiddleware-&gt;__invoke</span>
+                        <span class="stack-file">
+                            CORE/src/Http/Runner.php, line 65                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-12">
+                            <span class="stack-function">&rang; Cake\Http\Runner-&gt;__invoke</span>
+                        <span class="stack-file">
+                            CORE/src/Http/Runner.php, line 51                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-13">
+                            <span class="stack-function">&rang; Cake\Http\Runner-&gt;run</span>
+                        <span class="stack-file">
+                            CORE/src/Http/Server.php, line 98                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="#" data-target="stack-frame-14">
+                            <span class="stack-function">&rang; Cake\Http\Server-&gt;run</span>
+                        <span class="stack-file">
+                            ROOT/webroot/index.php, line 40                        </span>
+        </a>
+        </li>
+</ul>
+    </div>
+
+<script type="text/javascript">
+function bindEvent(selector, eventName, listener) {
+    var els = document.querySelectorAll(selector);
+    for (var i = 0, len = els.length; i < len; i++) {
+        els[i].addEventListener(eventName, listener, false);
+    }
+}
+
+function toggleElement(el) {
+    if (el.style.display === 'none') {
+        el.style.display = 'block';
+    } else {
+        el.style.display = 'none';
+    }
+}
+
+function each(els, cb) {
+    var i, len;
+    for (i = 0, len = els.length; i < len; i++) {
+        cb(els[i], i);
+    }
+}
+
+window.addEventListener('load', function() {
+    bindEvent('.stack-frame-args', 'click', function(event) {
+        var target = this.dataset['target'];
+        var el = document.getElementById(target);
+        toggleElement(el);
+        event.preventDefault();
+    });
+
+    var details = document.querySelectorAll('.stack-details');
+    var frames = document.querySelectorAll('.stack-frame');
+    bindEvent('.stack-frame a', 'click', function(event) {
+        each(frames, function(el) {
+            el.classList.remove('active');
+        });
+        this.parentNode.classList.add('active');
+
+        each(details, function(el) {
+            el.style.display = 'none';
+        });
+
+        var target = document.getElementById(this.dataset['target']);
+        toggleElement(target);
+        event.preventDefault();
+    });
+
+    bindEvent('.toggle-vendor-frames', 'click', function(event) {
+        each(frames, function(el) {
+            if (el.classList.contains('vendor-frame')) {
+                toggleElement(el);
+            }
+        });
+        event.preventDefault();
+    });
+});
+</script>
+<script id="__debug_kit" data-id="5cb013f0-f833-492c-9219-199e537ab5a0" data-url="http://192.168.1.63/united_missions/" src="/united_missions/debug_kit/js/toolbar.js?1542789010"></script></body>
+</html>

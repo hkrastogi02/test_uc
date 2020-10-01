@@ -1,0 +1,11 @@
+#AddHandler php56-fcgi .php
+RewriteEngine on
+RewriteCond $1 !^(index\.html|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.html/$1 [L,QSA]
+
+SetEnv TZ Asia/Kolkata
+SetEnv CI_ENV development  
+
+

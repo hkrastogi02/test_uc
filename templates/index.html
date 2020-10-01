@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Pocket Watcher</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Css -->
+<link href="css/fonts.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap-select.css">
+<!-- Main Css -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- header -->
+<div class="headerMain">
+  <header class="inHeader">
+    <div class="container">
+      <div class="row">
+        <aside class="col-md-7 col-sm-7"> <a href="index.html" class="logo"><img src="images/inner-logo.png" class="img-responsive"></a>
+          <div class="searchBar">
+            <input name="" type="text" placeholder="Search">
+            <input name="" type="submit">
+          </div>
+        </aside>
+        <aside class="col-md-5 col-sm-5">
+          <div class="topRight">
+            <ul class="notifications">
+              <li><a href="#"><img src="images/icon1.png" class="img-responsive"><span>14</span></a></li>
+              <li><a href="#"><img src="images/icon2.png" class="img-responsive"><span>5</span></a></li>
+            </ul>
+            <div class="siteUser">
+              <div class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false"> <img src="images/user.jpg"><strong>Jonathan Doe</strong> <span><img src="images/menu-bar.png" class="img-responsive"></span> </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Edit profile</a></li>
+                  <li><a href="#">Settings</a></li>
+                  <li><a href="#">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </header>
+  <!-- btnsBlock -->
+  <section class="btnsBlock">
+    <div class="container"> <a href="#" class="active"><img src="images/link-icon1.png">Watcher</a> <a href="#"><img src="images/link-icon2.png">People</a> <a href="#"><img src="images/link-icon3.png">Places</a> <a href="#"><img src="images/link-icon4.png">Things</a>
+      <div class="btnSets">
+        <button><i class="fas fa-plus-circle"></i> <span>Add Product</span></button>
+        <button><i class="fas fa-camera"></i> <span>Go Live</span></button>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- filter Panel -->
+<section id="header4-0" class="filterPanel">
+  <div class="container">
+    <div class="row">
+      <aside class="col-md-4">
+        <div class="advertise"> <img src="images/advertisement.jpg" class="img-responsive"> </div>
+        <div id="toggle1" class="collapse toggle1">
+          <div class="filterLinks">
+            <h4>Filter by</h4>
+            {% if name %}
+  <h1>Hello {{ name }}!</h1>
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}
+            <ul>
+              <li>
+                <label>
+                  <input type="checkbox" name="filter1[]" value="" checked="checked">
+                  All</label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="filter1[]" value="">
+                  People</label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="filter1[]" value="">
+                  Places</label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="filter1[]" value="">
+                  Things</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="toggle2" class="collapse toggle1">
+          <div class="filterLinks">
+            <h4>Sort by</h4>
+            <ul>
+              <li>
+                <label>
+                  <input type="checkbox" name="filter2[]" value="" checked="checked">
+                  Newest</label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="filter2[]" value="">
+                  Oldest</label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="filter2[]" value="">
+                  Most Popular</label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="filter2[]" value="">
+                  Least Popular</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="filterOptions">
+          <ul>
+            <li><a href="javascript:;" data-toggle="collapse" data-target="#toggle1"><i class="fas fa-filter"></i> Filter</a></li>
+            <li><a href="javascript:;" data-toggle="collapse" data-target="#toggle2"><i class="fas fa-sort"></i> Sort By</a></li>
+          </ul>
+        </div>
+      </aside>
+      <aside class="col-md-8">
+        <div class="categoryBlock">
+          <div class="categoryPost">
+            <div class="col-md-9">
+              <div class="userName"><img src="images/user1.jpg" class="img-responsive">Ronald Smith</div>
+              <div class="catgUser">Celebrity
+                <select class="selectpicker">
+                  <option data-content="<img src='images/public-icon.png'>"></option>
+                  <option data-content="<img src='images/friends-icon.png'>"></option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="timePost">8hr</div>
+            </div>
+            <p>Purchased a product.</p>
+            <figure><img src="images/category-image1.jpg" class="img-responsive"></figure>
+            <ul>
+              <li><a href="#"><img src="images/share-icon.png">Share</a></li>
+              <li><a href="#"><img src="images/coments-icon.png">412 Comments</a></li>
+              <li class="toggleBtn" data-toggle="collapse" data-target="#toggleDiv"><a href="javascript:;"><img src="images/expand-icon.png"></a></li>
+              <li><a href="#"><img src="images/chat-icon.png">Message</a></li>
+              <li>
+                <button>Buy Now</button>
+              </li>
+            </ul>
+          </div>
+          <div id="toggleDiv" class="collapse togggleBox">
+            <ul>
+              <li><a href="#">Message</a></li>
+              <li><a href="#">
+                <button>Buy Now</button>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="categoryBlock">
+          <div class="categoryPost">
+            <div class="col-md-9">
+              <div class="userName"><img src="images/user2.jpg" class="img-responsive">Marry Bran</div>
+              <div class="catgUser">Musician
+                <select class="selectpicker">
+                  <option data-content="<img src='images/public-icon.png'>"></option>
+                  <option data-content="<img src='images/friends-icon.png'>"></option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="timePost">12hr</div>
+            </div>
+            <p>Visited a <strong>Classy Messy</strong> store.</p>
+            <figure><img src="images/category-image2.jpg" class="img-responsive"></figure>
+            <ul>
+              <li><a href="#"><img src="images/share-icon.png">Share</a></li>
+              <li><a href="#"><img src="images/coments-icon.png">412 Comments</a></li>
+              <li class="toggleBtn" data-toggle="collapse" data-target="#toggleDiv"><a href="javascript:;"><img src="images/expand-icon.png"></a></li>
+              <li><a href="#"><img src="images/chat-icon.png">Message</a></li>
+              <li>
+                <button>Buy Now</button>
+              </li>
+            </ul>
+            <div id="toggleDiv" class="collapse togggleBox">
+              <ul>
+                <li><a href="#">Message</a></li>
+                <li><a href="#">
+                  <button>Buy Now</button>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="postComments">
+          <div class="writeComent">
+            <div class="col-md-1 col-sm-2 col-xs-12"><img src="images/user2.jpg" class="img-responsive"></div>
+            <div class="col-md-10 col-sm-8 col-xs-10">
+              <input name="" type="text" placeholder="Write your comment...">
+            </div>
+            <div class="col-md-1 col-sm-2 col-xs-2 clickPic"><a href="#"><img src="images/camera-icon.png" class="img-responsive"></a></div>
+          </div>
+          <div class="commentsBlock">
+            <div class="comments">
+              <div class="col-md-1 col-sm-2 col-xs-3 user"><a href="#"><img src="images/user1.jpg" class="img-responsive"></a></div>
+              <div class="col-md-11 col-sm-10 col-xs-9"> <a href="#">
+                <h3>R McAdams</h3>
+                </a>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proingrav velvelit auctor aliquet.</p>
+                <ul>
+                  <li><a href="#">Reply</a></li>
+                  <li><a href="#">Edit</a></li>
+                  <li><a href="#">Delete</a></li>
+                  <li class="time">8m</li>
+                </ul>
+              </div>
+            </div>
+            <div class="comments">
+              <div class="col-md-1 col-sm-2 col-xs-3 user"><a href="#"><img src="images/user2.jpg" class="img-responsive"></a></div>
+              <div class="col-md-11 col-sm-10 col-xs-9"> <a href="#">
+                <h3>Rachel McAdams</h3>
+                </a>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proingrav velvelit auctor aliquet.</p>
+                <ul>
+                  <li><a href="#">Reply</a></li>
+                  <li class="time">8m</li>
+                </ul>
+              </div>
+              <div class="comments">
+                <div class="col-md-1 col-sm-2 col-xs-3 user"><a href="#"><img src="images/user1.jpg" class="img-responsive"></a></div>
+                <div class="col-md-11 col-sm-10 col-xs-9"> <a href="#">
+                  <h3>dd McAdams</h3>
+                  </a>
+                  <p>This is Photoshop's version  of Lorem Ipsum. Proingrav velvelit auctor aliquet.</p>
+                  <ul>
+                    <li><a href="#">Reply</a></li>
+                    <li><a href="#">Edit</a></li>
+                    <li><a href="#">Delete</a></li>
+                    <li class="time">8m</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="comments">
+              <div class="col-md-1 col-sm-2 col-xs-3 user"><a href="#"><img src="images/user1.jpg" class="img-responsive"></a></div>
+              <div class="col-md-11 col-sm-10 col-xs-9"> <a href="#">
+                <h3>Rachel McAdams</h3>
+                </a>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proingrav velvelit auctor aliquet.</p>
+                <ul>
+                  <li><a href="#">Reply</a></li>
+                  <li class="time">8m</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="commentsBlock">
+            <div class="comments">
+              <div class="col-md-1 col-sm-2 col-xs-3 user"><a href="#"><img src="images/user2.jpg" class="img-responsive"></a></div>
+              <div class="col-md-11 col-sm-10 col-xs-9"> <a href="#">
+                <h3>Rachel McAdams</h3>
+                </a>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proingrav velvelit auctor aliquet.</p>
+                <ul>
+                  <li><a href="#">Reply</a></li>
+                  <li><a href="#">Edit</a></li>
+                  <li><a href="#">Delete</a></li>
+                  <li class="time">8m</li>
+                </ul>
+              </div>
+            </div>
+            <div class="comments">
+              <div class="col-md-1 col-sm-2 col-xs-3 user"><a href="#"><img src="images/user1.jpg" class="img-responsive"></a></div>
+              <div class="col-md-11 col-sm-10 col-xs-9"> <a href="#">
+                <h3>Rachel McAdams</h3>
+                </a>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proingrav velvelit auctor aliquet.</p>
+                <ul>
+                  <li><a href="#">Reply</a></li>
+                  <li><a href="#">Edit</a></li>
+                  <li><a href="#">Delete</a></li>
+                  <li class="time">8m</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="viewMore"> <a href="#">View More Comments</a> </div>
+        </div>
+        <div class="categoryBlock">
+          <div class="categoryPost">
+            <div class="col-md-9">
+              <div class="userName"><img src="images/user2.jpg" class="img-responsive">Waylon Dalton</div>
+              <div class="catgUser">Business Person
+                <select class="selectpicker">
+                  <option data-content="<img src='images/public-icon.png'>"></option>
+                  <option data-content="<img src='images/friends-icon.png'>"></option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="timePost">1d</div>
+            </div>
+            <p>Started watching <strong>Mathias Little.</strong></p>
+          </div>
+        </div>
+        <div class="categoryBlock">
+          <div class="categoryPost">
+            <div class="col-md-9">
+              <div class="userName"><img src="images/user2.jpg" class="img-responsive">Amazon Associates</div>
+              <div class="catgUser">Sponsored
+                <select class="selectpicker">
+                  <option data-content="<img src='images/public-icon.png'>"></option>
+                  <option data-content="<img src='images/friends-icon.png'>"></option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="timePost">8hr</div>
+            </div>
+            <p>Visited a <strong>Classy Messy store</strong>.</p>
+            <figure><img src="images/category-image3.jpg" class="img-responsive"></figure>
+            <ul>
+              <li><a href="#"><img src="images/share-icon.png">Share</a></li>
+              <li><a href="#"><img src="images/coments-icon.png">412 Comments</a></li>
+              <li><a href="#"><img src="images/chat-icon.png">Message</a></li>
+              <li>
+                <button>Buy Now</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap-tabcollapse.js"></script> 
+<script>$('#myTab').tabCollapse();</script> 
+<script>
+$('.dropdown').on('show.bs.dropdown', function(e){
+  $(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
+});
+
+$('.dropdown').on('hide.bs.dropdown', function(e){
+  $(this).find('.dropdown-menu').first().stop(true, true).slideUp(200);
+});
+</script> 
+<!-- CheckBox and radio Button Js--> 
+<script type="text/javascript">
+    function customCheckbox(checkboxName){
+        var checkBox = $('input[name="'+ checkboxName +'"]');
+        $(checkBox).each(function(){
+            $(this).wrap( "<span class='custom-checkbox'></span>" );
+            if($(this).is(':checked')){
+                $(this).parent().addClass("selected");
+            }
+        });
+        $(checkBox).click(function(){
+            $(this).parent().toggleClass("selected");
+        });
+    }
+    $(document).ready(function (){
+        customCheckbox("filter1[]");customCheckbox("filter2[]");
+    })
+</script> 
+<script src="js/bootstrap-select.js"></script>
+</body>
+</html>

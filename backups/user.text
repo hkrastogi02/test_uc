@@ -1,0 +1,86 @@
+@app.route('/api/createtable', methods=['GET'])
+def get_tasks():
+	table = dynamodb.create_table(
+    TableName='user',
+    KeySchema=[
+        {
+            'AttributeName': 'id',
+            'KeyType': 'HASH'  #Partition key
+        },
+        {
+            'AttributeName': 'username',
+            'KeyType': 'RANGE'  #Sort key
+        }
+    ],
+    AttributeDefinitions=[
+        {
+            'AttributeName': 'id',
+            'AttributeType': 'N'
+        },
+        {
+            'AttributeName': 'username',
+            'AttributeType': 'S'
+        },
+
+    ],
+    ProvisionedThroughput={
+        'ReadCapacityUnits': 10,
+        'WriteCapacityUnits': 10
+    }
+)
+
+For create table
+
+For put in a table
+@app.route('/api/putiteam', methods=['GET'])
+def get_task123():
+	table = dynamodb.Table('user')
+	table.put_item(
+	Item={
+		'id':1,
+		'username': 'janedoe',
+		'email': 'jane@gmail.com',
+		'password': '123456',
+		'role': 1,
+		'country': 'IN',
+		'city':'delhi',
+		'state':'delhi',
+		'area':'cp',
+		'image':'abc.jpg',
+		'status':1,
+		'document':'abc.png'
+		}
+)
+/// fatch a table from 
+@app.route("/api/users/<string:username>", methods=['GET'])
+
+def get_user(username):
+	table = dynamodb.Table('user')
+	
+	response = table.get_item(
+
+		
+
+		
+
+		Key={'id': 1, 'username': "janedoe"}
+
+		
+
+	)
+	
+	item = response.get('Item')
+
+	if not item:
+
+		return jsonify({'error': 'User does not exist'}), 404
+
+
+	return jsonify({
+
+		'email': item.get('email'),
+
+		'username': item.get('username')
+
+	})
+

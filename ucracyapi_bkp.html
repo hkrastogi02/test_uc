@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ucracy </title>
+        <style>
+            .content {
+                width: 60%;
+                margin: 50px auto;
+                padding: 20px;
+            }
+            .content h1 {
+                font-weight: 400;
+                text-transform: uppercase;
+                margin: 0;
+            }
+            .content h2 {
+                font-weight: 400;
+                text-transform: uppercase;
+                color: #333;
+                margin: 0 0 20px;
+            }
+            .content p {
+                font-size: 1em;
+                font-weight: 300;
+                line-height: 1.5em;
+                margin: 0 0 20px;
+            }
+            .content p:last-child {
+                margin: 0;
+            }
+            .content a.button {
+                display: inline-block;
+                padding: 10px 20px;
+                background: #ff0;
+                color: #000;
+                text-decoration: none;
+            }
+            .content a.button:hover {
+                background: #000;
+                color: #ff0;
+            }
+            .content.title {
+                position: relative;
+                background: none;
+                border: 2px dashed #333;
+            }
+            .content.title h1 span.demo {
+                display: inline-block;
+                font-size: .5em;
+                padding: 5px 10px;
+                background: #000;
+                color: #fff;
+                vertical-align: top;
+                margin: 7px 0 0;
+            }
+            .content.title .back-to-article {
+                position: absolute;
+                bottom: -20px;
+                left: 20px;
+            }
+            .content.title .back-to-article a {
+                padding: 10px 20px;
+                background: #f60;
+                color: #fff;
+                text-decoration: none;
+            } 
+            .content.title .back-to-article a:hover {
+                background: #f90;
+            }
+            .content.title .back-to-article a i {
+                margin-left: 5px;
+            }
+            .content.white {
+                background: #fff;
+                box-shadow: 0 0 10px #999;
+            }
+            .content.black {
+                background: #000;
+            }
+            .content.black p {
+                color: #999;
+            }
+            .content.black p a {
+                color: #08c;
+            }
+
+            .accordion-container {
+                width: 100%;
+                margin: 0 0 20px;
+                clear: both;
+            }
+            .accordion-toggle {
+                position: relative;
+                display: block;
+                padding: 15px;
+                font-size: 1.2em;
+                font-weight: 300;
+                background: #BBB;
+                color: #fff;
+                text-decoration: none;
+                font-family: Bree serif !important;
+            }
+            .accordion-toggle.open {
+                background:#1C7BBE;
+                color: #fff;
+            }
+            .accordion-toggle:hover {
+                background: #1C7BBE;
+                color: #fff!important;
+            }
+            .accordion-toggle span.toggle-icon {
+                position: absolute;
+                top: 17px;
+                left: 20px;
+                font-size: 1.5em;
+            }
+            .accordion-content {
+                display: none;
+                padding: 20px;
+                overflow: auto;
+                font-family: Bree serif;
+            }
+            .accordion-content img {
+                display: block;
+                float: left;
+                margin: 0 15px 10px 0;
+                max-width: 100%;
+                height: auto;
+            }
+
+            /* media query for mobile */
+            @media (max-width: 767px) {
+                .content {
+                    width: auto;
+                }
+                .accordion-content {
+                    padding: 10px 0;
+                    overflow: inherit;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container pages">
+            <div class="row text-left" style="padding:10px;">
+                <h2 style="text-align:center;">Ucracy Missions API List</h2>
+                <div class="page-header"><h3>Service Listing</h3>
+               
+					 <h4>User role </h4>
+					 <h5>Citizen</h5>:1
+					  <h5>Politician</h5>:2
+					   <h5>Representative</h5>:3
+                </div>
+                
+                <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">1. Sign Up API </span>
+                    </a>
+                    <div class="accordion-content">
+                       <h5>API Url:</h5> http://148.76.75.204:5005/api/signup
+                       <h5>Method:Post(Raw data) </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	{"username":"saurabhk", "email":"saurabhk1@sourcesoftsolutions.com", "password":"123456"}<p></p>
+                        
+                        <h5>Sample Response (Success) for user: </h5>
+                        <pre>                        
+						{
+	    {
+	        "meggase": "Recoard is save sucessfully",
+	        "responce": {}
+	    }
+	}
+                      
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+               
+                
+                <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">2. Login</span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5> http://148.76.75.204:5005/api/login
+                       <h5>Method:Post(Raw data) </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	{"email":"saurabhk1@sourcesoftsolutions.com", "password":"123456"}
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+						{
+	    {
+	        "meggase": "Recoard is save sucessfully",
+	        "responce": {{"meggase": "Login has been sucessfully ", "responce": {"area": "Jehanabad", "city": "Jehanabad", "country": "india", "document": "", "email": "saurabhk@sourcesoftsolutions.com", "id": "01fa3d24c3fd49a1be0e4e36cb261c4d", "image": "/var/www/html/ucracy/public/uplods/3592388153743395616.jpeg", "status": true, "uregion": "State of Bihar", "username": "saurabh", "utype": 2}}}
+	    }
+	}
+                        
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+                
+                 <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">3. Recover Password</span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5> http://148.76.75.204:5005/api/recoverpassword
+                       <h5>Method:Post(Raw data) </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	{"email":"saurabhk1@sourcesoftsolutions.com"}
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+						{
+	    {
+	        "meggase": "Password has been send your email",
+	        "responce": {}
+	    }
+	}
+                        
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+               
+                 <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">3. Country List</span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/countrylist
+                       <h5>Method:Get </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	{}
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+						{"meggase": "Country list are", "responce": [{"code": "af", "name": "Afghanistan"}, {"code": "al", "name": "Albania"}, {"code": "dz", "name": "Algeria"}]}
+                        
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+                
+                 <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">4.Get Country Region List</span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/regionbycountry
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                       {"country_code":"in"}
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+						{
+    "meggase": "Region  list are",
+    "responce": [
+        {
+            "country": "in",
+            "region": "Assam"
+        },
+        {
+            "country": "in",
+            "region": "Goa"
+        }
+    ]
+}
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+                <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">5.Get City List</span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/citybyregion
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                       {"regionname":"State of Bihar"}
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+						{
+    "meggase": "City list are",
+    "responce": [
+        {
+            "city": "Araria",
+            "country": "in",
+            "latitude": "26.20000076",
+            "longitude": "87.40000153",
+            "region": "State of Bihar"
+        },
+        {
+            "city": "Arwal",
+            "country": "in",
+            "latitude": "25.16157913",
+            "longitude": "84.69039917",
+            "region": "State of Bihar"
+        }
+    ]
+}
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+       <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">6.Profile</span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/profile
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com","password":"123456","username":"sddddddddd"}
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+						{
+    "message": "User  Details are ",
+    "response": {
+        "area": "b-21",
+        "city": "yy",
+        "country": "In",
+        "document": "",
+        "email": "kishore@gmail.com",
+        "id": "44bd03c9a41f4e16b2ad5d312d590225",
+        "image": "/var/www/html/ucracy/public/uplods/1430652logo.jpg",
+        "uregion": "",
+        "username": "kishore99",
+        "utype": 2
+    }
+}
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+            <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">7.Update Address screen</span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/updateaddress
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com",
+							  "utype":"1/2/3",
+							  "country":"in",
+							  "uregion":"up"
+							   "city":"Agra",
+							   "area":"334 --hjfhjfhf"
+							  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+						{
+    "message": "User  Details update sucessfully  ",
+    "response": {}
+}
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+     <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">8.Upload user image </span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/uploadimage
+                       <h5>Method:Post[Form data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com",
+							  "file":"abc.pnj",
+						
+							  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+						{
+    "message": "Profile image upload sucessfully   ",
+    "response": {}
+}
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+        <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">9.Upload user documents for verifing  </span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/documents
+                       <h5>Method:Post[Form data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com",
+							  "file":"abc.pnj",
+						
+							  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+						{
+    "message": "document upload sucessfully   ",
+    "response": {}
+}
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+                
+          <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">10.Add new feeds by login user  </span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/addfeeds
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com",
+							  "message":"This is my first message",
+						
+							  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+						{
+    "message": "Recoard is save sucessfully",
+    "response": {}
+}
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+         <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">11.Feeds details by feedid  </span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/feeddetails
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com",
+							  "feedid":"88cb292294c54bfe96c7fdd98c6ec066",
+						
+							  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+							{
+							"message": "feeds  Details are ",
+							"response": {
+							"date": 1557481222,
+							"email": "kishore@gmail.com",
+							"feedid": "ef613551ad4a4a399d3cd9cb7c1e0105",
+							"message": "dsfds",
+							"status": true
+							}
+							}
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+                 <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">12.Update feed details by feedid  </span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/updatefeed
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com",
+							  "feedid":"88cb292294c54bfe96c7fdd98c6ec066",
+						      "message":"This is user details message"
+							  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+							{
+							"message": ""User feeds update successfully ",
+							"response": {
+							
+							}
+							}
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+              <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">13.Like a Feed by a user </span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/addfavourite
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com",
+							  "feedid":"88cb292294c54bfe96c7fdd98c6ec066",
+						      "status":True/Flase
+						  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+							{
+							"message": ""Recoard is save sucessfully ",
+							"response": {
+							
+							}
+							}
+                    </div>
+                    <!--/.accordion-content-->
+                </div> 
+                
+         <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">14.Comments On  a Feed by a user </span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/addComment
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com",
+							  "feedid":"88cb292294c54bfe96c7fdd98c6ec066",
+						      "comment":"comment message "
+						  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+							{
+							"message": ""Recoard is save sucessfully ",
+							"response": {
+							
+							}
+							}
+                    </div>
+                    <!--/.accordion-content-->
+                </div>  
+            <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">15.Comments Details By comment id  </span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/commentdetails
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com",
+							  
+						      "commentid":"878967867823647823"
+						  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+							{
+							"message": ""Recoard is save sucessfully ",
+							"response{
+							'id':"dfsfsf",
+							'feedid':"6786786786786",
+							'email':"kishore@gmail.com",
+							'ucomment':"",
+							'status':true,
+							'date': "233232" ,
+
+							}
+							}
+                    </div>
+                    <!--/.accordion-content-->
+                </div>  
+                <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">16.Feed list on home screen  </span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/updatecomment
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com","utype":"1",
+							  "comment":"reere dfdfsd"
+						      "commentid":"878967867823647823"
+						  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+							{
+							"message": ""Recoard is update sucessfully ",
+							"response{
+							}
+							}
+                    </div>
+                    <!--/.accordion-content-->
+                </div>       
+                <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">17.Update Comments  By comment id  </span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/feedslist
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com",
+							  
+						  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+							{
+    "message": "Deed  Details are ",
+    "response": [
+        {
+            "date": 1557299766,
+            "email": "kishore@gmail.com",
+            "feedid": "88cb292284c54bfe96c7fdd98c6ec066",
+            "feedmessage": "Test message are using for testiong",
+            "feedstatus": true,
+            "image": "http://localhost/ucracy/public/uplods/1430652logo.jpg",
+            "totallike": 0,
+            "totalunlike": 0,
+            "usercountry": "In",
+            "userid": "44bd03c9a41f4e16b2ad5d312d590225",
+            "userlikestatus": "",
+            "username": "kishore99"
+        },
+        {
+            "date": 1557481222,
+            "email": "kishore@gmail.com",
+            "feedid": "56d40cea8d104c40b7be5c56d82207c7",
+            "feedmessage": "dsfds",
+            "feedstatus": true,
+            "image": "http://localhost/ucracy/public/uplods/1430652logo.jpg",
+            "totallike": 0,
+            "totalunlike": 0,
+            "usercountry": "In",
+            "userid": "44bd03c9a41f4e16b2ad5d312d590225",
+            "userlikestatus": "",
+            "username": "kishore99"
+        },
+        {
+            "date": 1557481222,
+            "email": "kishore@gmail.com",
+            "feedid": "ef613551ad4a4a399d3cd9cb7c1e0105",
+            "feedmessage": "dsfds",
+            "feedstatus": true,
+            "image": "http://localhost/ucracy/public/uplods/1430652logo.jpg",
+            "totallike": 0,
+            "totalunlike": 0,
+            "usercountry": "In",
+            "userid": "44bd03c9a41f4e16b2ad5d312d590225",
+            "userlikestatus": "",
+            "username": "kishore99"
+        },
+        {
+            "date": 1557211943,
+            "email": "naveen@gmail.com",
+            "feedid": "972fc95839db409898c97b230d4323aa",
+            "feedmessage": "Hi new message here showing ",
+            "feedstatus": true,
+            "image": "http://localhost/ucracy/public/uplods/5443876abc-logo.jpg",
+            "totallike": 1,
+            "totalunlike": 0,
+            "usercountry": "In",
+            "userid": "83d6209dde914cf29f5306b2606aa713",
+            "userlikestatus": "true",
+            "username": "naveen99"
+        }
+    ]
+}
+                    </div>
+                    <!--/.accordion-content-->
+                </div>             
+              <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">18.Feeds by user email </span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/getfeedsbyuser
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com"
+							  
+						  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+							{
+    "message": "Deed  Details are ",
+    "response": [
+        {
+            "date": 1557299766,
+            "email": "kishore@gmail.com",
+            "feedid": "88cb292284c54bfe96c7fdd98c6ec066",
+            "feedmessage": "Test message are using for testiong",
+            "feedstatus": true,
+            "image": "http://localhost/ucracy/public/uplods/1430652logo.jpg",
+            "totallike": 0,
+            "totalunlike": 0,
+            "usercountry": "In",
+            "userid": "44bd03c9a41f4e16b2ad5d312d590225",
+            "userlikestatus": "",
+            "username": "kishore99"
+        }
+	]
+}
+	
+                    </div>
+                    <!--/.accordion-content-->
+                </div>
+                
+        <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">19.Get like list  of a feed </span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/likelistbyfeed
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com",
+							  "feedid":"972fc95839db409898c97b230d4323aa"
+							  
+						  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+							{
+    "message": "likes  list are ",
+    "response": [
+        {
+            "email": "kishore@gmail.com",
+            "feedid": "972fc95839db409898c97b230d4323aa",
+            "image": "http://localhost/ucracy/public/uplods/1430652logo.jpg",
+            "userarea": "yy",
+            "usercity": "yy",
+            "usercountry": "In",
+            "userid": "44bd03c9a41f4e16b2ad5d312d590225",
+            "username": "kishore99"
+        }
+    ]
+}
+	
+                    </div>
+                    <!--/.accordion-content-->
+                </div>          
+         <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">20.Get dislike list  of a feed </span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/dislikelistbyfeed
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com",
+							  "feedid":"972fc95839db409898c97b230d4323aa"
+							  
+						  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+							{
+    "message": "likes  list are ",
+    "response": [
+        {
+            "email": "kishore@gmail.com",
+            "feedid": "972fc95839db409898c97b230d4323aa",
+            "image": "http://localhost/ucracy/public/uplods/1430652logo.jpg",
+            "userarea": "yy",
+            "usercity": "yy",
+            "usercountry": "In",
+            "userid": "44bd03c9a41f4e16b2ad5d312d590225",
+            "username": "kishore99"
+        }
+    ]
+}
+	
+                    </div>
+                    <!--/.accordion-content-->
+                </div>  
+                <div class="accordion-container">
+                    <a href="#" class="accordion-toggle"><span class="toggle-icon"><i class="fa fa-plus-circle"></i></span>
+                        <span style="margin-left:50px;line-height: 1.5em;">20.Comments List By feedid</span>
+                    </a>
+                    <div class="accordion-content">
+						 <h5>API Url:</h5>http://148.76.75.204:5005/api/commentbyfeed
+                       <h5>Method:Post[Raw data] </h5>
+                      <h5>Parameters: </h5>
+                        Req. Parameter : 
+	                      {"email":"kishore@gmail.com",
+							  "feedid":"972fc95839db409898c97b230d4323aa"
+							  
+						  }
+	                      
+                        
+                        <h5>Sample Response (Success) for : </h5>
+                        <pre>                        
+							{
+    "message": "Comments  list are ",
+    "response": [
+        {
+            "comment": "hi this is new",
+            "commentid": "fee403f6d5c940eea692b642ee3e66af",
+            "date": 1557380753,
+            "email": "kishore@gmail.com",
+            "feedid": "972fc95839db409898c97b230d4323aa",
+            "image": "http://localhost/ucracy/public/uplods/1430652logo.jpg",
+            "userarea": "yy",
+            "usercity": "yy",
+            "usercountry": "In",
+            "userid": "44bd03c9a41f4e16b2ad5d312d590225",
+            "username": "kishore99"
+        }
+    ]
+}
+	
+                    </div>
+                    <!--/.accordion-content-->
+                </div>                           
+
+            </div>
+        
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="United%20Missions%20API%20List_files/jquery.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="United%20Missions%20API%20List_files/bootstrap.html"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.accordion-toggle').on('click', function (event) {
+                event.preventDefault();
+                // create accordion variables
+                var accordion = $(this);
+                var accordionContent = accordion.next('.accordion-content');
+                var accordionToggleIcon = $(this).children('.toggle-icon');
+
+                // toggle accordion link open class
+                accordion.toggleClass("open");
+                // toggle accordion content
+                accordionContent.slideToggle(250);
+
+                // change plus/minus icon
+                if (accordion.hasClass("open")) {
+                    accordionToggleIcon.html("<i class='fa fa-minus-circle'></i>");
+                } else {
+                    accordionToggleIcon.html("<i class='fa fa-plus-circle'></i>");
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('ul.nav a').each(function () {
+                if (location.href === this.href) {
+                    $(this).addClass('active');
+                    $('ul.nav a').not(this).removeClass('active');
+                    return false;
+                }
+            });
+        });
+    </script>
+<script id="__debug_kit" data-id="8f4e89a3-105c-4347-b42e-378301a693d6" data-url="http://192.168.1.63/united_missions/" src="United%20Missions%20API%20List_files/toolbar.js"></script>
+
+<iframe style="position: fixed; bottom: 0px; right: 0px; border: 0px none; outline: currentcolor none 0px; overflow: hidden; z-index: 99999;" src="United%20Missions%20API%20List_files/8f4e89a3-105c-4347-b42e-378301a693d6.html" width="40" height="40"></iframe></body></html>
